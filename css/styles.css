@@ -1,9 +1,10 @@
 /*Meteor Camp */
 
+/*
 body {
 	margin: 0;
 	padding: 1em;
-	background-color: #333333;
+	background-color: white;
 }
 	
 
@@ -20,6 +21,7 @@ p a {
 	text-decoration: none;
 } 
 
+*/
 .body {
 	text-align: center;
 	display: block;
@@ -98,3 +100,65 @@ p.updates {
 	font: 11px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
+/* 2016-04-19 ASG -- Added. */
+.centered {
+    text-align: center;
+}
+
+/* Links */
+/*
+a {
+    color: #f85c37;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+*/
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+/* TEAM CONF */
+
+.team {
+	padding-top: 20px;
+}
+
+.team:hover {
+	background: deepskyblue;
+}
+
+.team a {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.volunteers {
+	background-color: #337AB7;
+	font-weight: 900;
+	height: 400px;
+
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/nn20130427a7a.jpg") no-repeat center center scroll;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+}
+
+.bg-dark {
+	background-color: #fff;
+}
