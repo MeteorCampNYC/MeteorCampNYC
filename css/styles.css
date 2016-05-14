@@ -159,9 +159,41 @@ a:after {
   -moz-background-size: cover;
 }
 
+/* Style the tito inclusion? Probably not possible for iframe inclusion */
 
 /*
 .tito-ticket-description {
 	font-size: 1.5em;
 }
 */
+
+/* Styles for countdown timer */
+
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #666666;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #708090;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
