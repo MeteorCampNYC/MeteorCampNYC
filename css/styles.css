@@ -6,7 +6,7 @@ body {
 	padding: 1em;
 	background-color: white;
 }
-	
+
 
 p {
   color: white;
@@ -19,7 +19,7 @@ p a {
 	color: white;
 	border-bottom: 1px dotted white;
 	text-decoration: none;
-} 
+}
 
 */
 .body {
@@ -62,7 +62,7 @@ p.updates {
 	padding: 0;
 }
 
- 
+
 #logo {
 	width: 260px;
 	height: auto;
@@ -197,3 +197,6 @@ a:after {
     font-size: 16px;
 }
 
+.scrolloff {
+  pointer-events: none;
+}
