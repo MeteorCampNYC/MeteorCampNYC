@@ -200,3 +200,22 @@ a:after {
 .scrolloff {
   pointer-events: none;
 }
+
+@media(max-device-width : 736px){
+        
+    .map {
+        height: 75%;
+    }
+
+    #clockdiv > div{
+        padding: 5px;
+    }
+
+    #clockdiv div > span{
+        padding: 10px;
+    }
+
+    .smalltext{
+        font-size: 14px;
+    }
+}
