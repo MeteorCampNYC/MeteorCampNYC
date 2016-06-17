@@ -1,457 +1,582 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>Meteor Camp NYC</title>
-
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href="css/stylish-portfolio.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
     <!-- Add tito integration for registration -->
     <script src='https://js.tito.io/v1' async></script>
     <link rel="stylesheet" type="text/css" href='https://css.tito.io/v1' />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle">
+      <i class="fa fa-bars"></i>
+    </a>
     <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top"  onclick = $("#menu-close").click(); >Meteor Camp NYC</a>
-            </li>
-            <li>
-                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
-            </li>
-            <li>
-                <a href="#about" onclick = $("#menu-close").click(); >About</a>
-            </li>
-            <li>
-                <a href="#presenters" onclick = $("#menu-close").click(); >Presenting</a>
-            </li>
-            <li>
-                <a href="#volunteers" onclick = $("#menu-close").click(); >Volunteering</a>
-            </li>
-            <li>
-                <a href="#bios" onclick = $("#menu-close").click(); >Presenters</a>
-            </li>
-            <li>
-                <a href="#partners" onclick = $("#menu-close").click(); >Partnering</a>
-            </li>
-            <li>
-                <a href="#registration" onclick = $("#menu-close").click(); >Registration</a>
-            </li>
-            <li>
-                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
-            </li>
-        </ul>
+      <ul class="sidebar-nav">
+        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle">
+          <i class="fa fa-times"></i>
+        </a>
+        <li class="sidebar-brand">
+          <a href="#top" onclick=$ ( "#menu-close").click();>Meteor Camp NYC</a>
+        </li>
+        <li>
+          <a href="#top" onclick=$ ( "#menu-close").click();>Home</a>
+        </li>
+        <li>
+          <a href="#about" onclick=$ ( "#menu-close").click();>About</a>
+        </li>
+        <li>
+          <a href="#presenters" onclick=$ ( "#menu-close").click();>Presenting</a>
+        </li>
+        <li>
+          <a href="#volunteers" onclick=$ ( "#menu-close").click();>Volunteering</a>
+        </li>
+        <li>
+          <a href="#bios" onclick=$ ( "#menu-close").click();>Presenters</a>
+        </li>
+        <li>
+          <a href="#partners" onclick=$ ( "#menu-close").click();>Partnering</a>
+        </li>
+        <li>
+          <a href="#registration" onclick=$ ( "#menu-close").click();>Registration</a>
+        </li>
+        <li>
+          <a href="#contact" onclick=$ ( "#menu-close").click();>Contact</a>
+        </li>
+      </ul>
     </nav>
-
     <!-- Header -->
     <header id="top" class="header">
-        <div class="text-vertical-center">
-            <h1>Meteor Camp NYC</h1>
-            <h3>July 8-10, 2016 &#64; the United Nations Headquarters</h3>
-            <br>
-            <br>
-            <div id="clockdiv">
-              <div>
-                <span class="days"></span>
-                <div class="smalltext">Days</div>
-              </div>
-              <div>
-                <span class="hours"></span>
-                <div class="smalltext">Hours</div>
-              </div>
-              <div>
-                <span class="minutes"></span>
-                <div class="smalltext">Minutes</div>
-              </div>
-              <div>
-                <span class="seconds"></span>
-                <div class="smalltext">Seconds</div>
-              </div>
-            </div>
-            <h3>Counting down to Meteor Camp NYC 2016!!</h3>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Tell Me More!</a>
+      <div class="text-vertical-center">
+        <h1>Meteor Camp NYC</h1>
+        <h3>July 8-10, 2016 &#64; the United Nations Headquarters</h3>
+        <br>
+        <br>
+        <div id="clockdiv">
+          <div>
+            <span class="days"></span>
+            <div class="smalltext">Days</div>
+          </div>
+          <div>
+            <span class="hours"></span>
+            <div class="smalltext">Hours</div>
+          </div>
+          <div>
+            <span class="minutes"></span>
+            <div class="smalltext">Minutes</div>
+          </div>
+          <div>
+            <span class="seconds"></span>
+            <div class="smalltext">Seconds</div>
+          </div>
         </div>
+        <h3>Counting down to Meteor Camp NYC 2016!!</h3>
+        <br>
+        <a href="#about" class="btn btn-dark btn-lg">Tell Me More!</a>
+      </div>
     </header>
-
     <!-- About -->
     <section id="about" class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Meteor Camp NYC 2016 is a MeteorJS-focused community-run gathering</h2>
-                    <p class="lead"><strong>Get your tickets to attend <a href="#registration">below!</a><strong></p>
-                    <p class="lead"><em>Please send us an email at <strong><a href="mailto:info@meteorcamp.nyc">info@meteorcamp.nyc</a></strong> if you have any questions or want to get involved.</em></p>
-                    <p>This website is being updated regularly. Come back often.</p>
-                </div>
-            </div>
-            <!-- /.row -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2>Meteor Camp NYC 2016 is a MeteorJS-focused community-run gathering</h2>
+            <p class="lead">
+              <strong>Get your tickets to attend
+                <a href="#registration">below!</a>
+                <strong>
+            </p>
+            <p class="lead">
+              <em>Please send us an email at
+                <strong>
+                  <a href="mailto:info@meteorcamp.nyc">info@meteorcamp.nyc</a>
+                </strong> if you have any questions or want to get involved.</em>
+            </p>
+            <p>This website is being updated regularly. Come back often.</p>
+          </div>
         </div>
-        <!-- /.container -->
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
     </section>
-
     <!-- Call for Presenters -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
     <section id="presenters" class="services bg-primary">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h1>What to Expect at Meteor Camp NYC 2016</h1>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-code fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Technical Presentations</strong>
-                                </h4>
-                                <p>In-depth talks about the Meteor open source platform or its ecosystem.</p>
-                                <!-- a href="#" class="btn btn-light">Learn More</a -->
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-question fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Tutorial Workshops</strong>
-                                </h4>
-                                <p>Hands-on learning opportunities for Camp attendees &mdash; provided free.</p>
-                                <!-- a href="#" class="btn btn-light">Learn More</a -->
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-comments fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Discussion Panels</strong>
-                                </h4>
-                                <p>Participation in opinionated group discourse on select topics.</p>
-                                <!-- a href="#" class="btn btn-light">Learn More</a -->
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-terminal fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Product Demonstrations</strong>
-                                </h4>
-                                <p>Presentations featuring commercial applications built with Meteor.</p>
-                                <!-- a href="#" class="btn btn-light">Learn More</a -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                    <!-- a target="_blank" href="http://eepurl.com/b0YUzH" class="btn btn-lg btn-light">Count Me In!</a -->
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-10 col-lg-offset-1">
+            <h1>What to Expect at Meteor Camp NYC 2016</h1>
+            <hr class="small">
+            <div class="row">
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                  <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-code fa-stack-1x text-primary"></i>
+                  </span>
+                  <h4>
+                    <strong>Technical Presentations</strong>
+                  </h4>
+                  <p>In-depth talks about the Meteor open source platform or its ecosystem.</p>
+                  <!-- a href="#" class="btn btn-light">Learn More</a -->
                 </div>
-                <!-- /.col-lg-10 -->
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                  <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-question fa-stack-1x text-primary"></i>
+                  </span>
+                  <h4>
+                    <strong>Tutorial Workshops</strong>
+                  </h4>
+                  <p>Hands-on learning opportunities for Camp attendees &mdash; provided free.</p>
+                  <!-- a href="#" class="btn btn-light">Learn More</a -->
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                  <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-comments fa-stack-1x text-primary"></i>
+                  </span>
+                  <h4>
+                    <strong>Discussion Panels</strong>
+                  </h4>
+                  <p>Participation in opinionated group discourse on select topics.</p>
+                  <!-- a href="#" class="btn btn-light">Learn More</a -->
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                  <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-terminal fa-stack-1x text-primary"></i>
+                  </span>
+                  <h4>
+                    <strong>Product Demonstrations</strong>
+                  </h4>
+                  <p>Presentations featuring commercial applications built with Meteor.</p>
+                  <!-- a href="#" class="btn btn-light">Learn More</a -->
+                </div>
+              </div>
             </div>
-            <!-- /.row -->
+            <!-- /.row (nested) -->
+            <!-- a target="_blank" href="http://eepurl.com/b0YUzH" class="btn btn-lg btn-light">Count Me In!</a -->
+          </div>
+          <!-- /.col-lg-10 -->
         </div>
-        <!-- /.container -->
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
     </section>
-
     <!-- Volunteers Callout -->
     <aside id="volunteers" class="callout volunteers">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <br>
-                    <br>
-                    <h1>Volunteer Opportunities!</h1>
-                    <h3>Be a part of this exciting, historic event &mdash; the first annual Meteor Camp NYC!!</h3>
-                    <br><br>
-                    <p class="lead">Thank you for your interest and generosity! We are no longer accepting volunteer applications.</p>
-                    <!--p class="lead">Meteor Camp NYC 2016 organizers need help keeping the website current and ensuring planning is executed smoothly. If you have a desire for or experience copywriting, providing social media updates and email notices, and answering questions from prospective attendees and presenters, reach out to us. We'd be happy to have the energy, enthusiam and experience you bring with you on the team!</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1 text-center">
+            <br>
+            <br>
+            <h1>Volunteer Opportunities!</h1>
+            <h3>Be a part of this exciting, historic event &mdash; the first annual Meteor Camp NYC!!</h3>
+            <br>
+            <br>
+            <p class="lead">Thank you for your interest and generosity! We are no longer accepting volunteer applications.</p>
+            <!--p class="lead">Meteor Camp NYC 2016 organizers need help keeping the website current and ensuring planning is executed smoothly. If you have a desire for or experience copywriting, providing social media updates and email notices, and answering questions from prospective attendees and presenters, reach out to us. We'd be happy to have the energy, enthusiam and experience you bring with you on the team!</p>
                     <br>
                     <a href="mailto:info@meteorcamp.nyc?subject=Volunteer%20Application" class="btn btn-light btn-lg">Sign Me Up!!</a-->
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
     </aside>
-
     <!-- Presenter Summaries -->
     <section id="bios" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h1>The Presenters</h1>
-                    <hr class="small">
-                    <div id="g">
-
-                        <div class="row">
-                            <br>
-                            <div class="col-lg-2"></div>
-                            <div class="col-lg-8">
-                            <p class="lead">We'll publish the list of speakers, tutors, and presenters as they confirm their attendance with us.</p>
-                            <br>
-                            <br>
-                            </div>
-                            <div class="col-lg-2"></div>
-                            <div class="col-lg-3 team">
-                                <img class="img-circle" src="img/susiripala.jpg" height="90" width="90">
-                                <h4>Arunoda Susiripala</h4>
-                                <h5><i>Kadira</i></h5>
-                                <p>Arunoda is the founder of Kadira and JavaScript hacker who loves Meteor, React and GraphQL.</p>
-                                <p>
-                                    <a target="_blank" href="https://twitter.com/arunoda"><i class="icon-twitter"></i></a>
-                                    <a target="_blank" href="mailto:arunoda.susiripala@gmail.com"><i class="icon-envelope"></i></a>
-                                    <a target="_blank" href="https://github.com/arunoda"><i class="icon-github"></i></a>
-                                    <a target="_blank" href="https://www.linkedin.com/in/arunoda"><i class="icon-linkedin"></i></a>
-
-                                </p>
-                            </div>
-
-                            <div class="col-lg-3 team">
-                                <img class="img-circle" src="img/watson.jpg" height="90" width="90">
-                                <h4>Abigail Watson</h4>
-                                <h5><i>Pentasyllabic Studios</i></h5>
-                                <p>Abigail, a clinical applications architect and bioinformaticist, is a past contributor to Velocity.</p>
-                                <p>
-                                    <a target="_blank" href="https://twitter.com/awatson1978"><i class="icon-twitter"></i></a>
-                                    <a target="_blank" href="mailto:awatson1978@gmail.com"><i class="icon-envelope"></i></a>
-                                    <a target="_blank" href="https://github.com/awatson1978"><i class="icon-github"></i></a>
-                                    <a target="_blank" href="https://www.linkedin.com/in/abigailwatson"><i class="icon-linkedin"></i></a>
-
-                                </p>
-                            </div>
-
-                            <div class="col-lg-3 team">
-                                <img class="img-circle" src="img/goldenberg.png" height="90" width="90">
-                                <h4>Tom Goldenberg</h4>
-                                <h5><i>Agolo</i></h5>
-                                <p>Tom is a web and mobile engineer for the text summarization platform Agolo.</p>
-                                <p>
-                                    <a target="_blank" href="https://twitter.com/tomgoldenberg"><i class="icon-twitter"></i></a>
-                                    <a target="_blank" href="mailto:thomasagoldenberg@gmail.com"><i class="icon-envelope"></i></a>
-                                    <a target="_blank" href="https://github.com/tgoldenberg"><i class="icon-github"></i></a>
-                                    <a target="_blank" href="https://www.linkedin.com/in/tom-goldenberg-67054b88"><i class="icon-linkedin"></i></a>
-                                    <a target="_blank" href="https://medium.com/@tomgoldenberg"><i class="icon-pencil"></i></a>
-
-                                </p>
-                            </div>
-
-                            <div class="col-lg-3 team">
-                                <img class="img-circle" src="img/ramsay.jpg" height="90" width="90">
-                                <h4>Anders Ramsay</h4>
-                                <h5><i>codechron.com</i></h5>
-                                <p>Anders Ramsay is a UX designer; developer and Agile Coach; and the organizer of the Agile Experience Design Meetup.</p>
-                                <p>
-                                    <a target="_blank" href="https://twitter.com/andersramsay"><i class="icon-twitter"></i></a>
-                                    <a target="_blank" href="mailto:andersr@gmail.com"><i class="icon-envelope"></i></a>
-                                    <a target="_blank" href="https://github.com/andersr"><i class="icon-github"></i></a>
-                                    <a target="_blank" href="https://www.linkedin.com/in/andersramsay"><i class="icon-linkedin"></i></a>
-                                    <a target="_blank" href="http://coderchronicles.org/about/"><i class="icon-pencil"></i></a>
-
-
-                                </p>
-                            </div>
-
-                            <div class="col-lg-3 team">
-                                <img class="img-circle" src="img/alanbrown.jpg" height="90" width="90">
-                                <h4>Nick Alan Brown</h4>
-                                <h5><i>Huge</i></h5>
-                                <p>Description to follow.</p>
-                                <p>
-                                    <a target="_blank" href="https://twitter.com/nicholasalanb"><i class="icon-twitter"></i></a>
-                                    <a target="_blank" href="mailto:nicholasalanbrown@gmail.com"><i class="icon-envelope"></i></a>
-                                    <!-- a target="_blank" href=""><i class="icon-github"></i></a -->
-                                    <a target="_blank" href="https://www.linkedin.com/in/nicholasalanbrown"><i class="icon-linkedin"></i></a>
-
-                                </p -->
-                            </div>
-
-
-                            <div class="col-lg-3 team">
-                                <img class="img-circle" src="img/larson.jpg" height="90" width="90">
-                                <h4>Curtis Larson</h4>
-                                <h5><i>Quackware</i></h5>
-                                <p>Description to follow.</p>
-                                <p>
-                                    <a target="_blank" href="https://twitter.com/quackware"><i class="icon-twitter"></i></a>
-                                    <a target="_blank" href="mailto:curtis@curtismlarson.com"><i class="icon-envelope"></i></a>
-                                    <a target="_blank" href="https://www.github.com/quackware"><i class="icon-github"></i></a>
-                                    <a target="_blank" href="https://www.linkedin.com/profile/view?id=133830767"><i class="icon-linkedin"></i></a>
-
-                                </p>
-                            </div>
-
-
-                            <div class="col-lg-3 team">
-                                <img class="img-circle" src="img/bachuk.jpg" height="90" width="90">
-                                <h4>Alex Bachuk</h4>
-                                <h5><i>Classmate.io</i></h5>
-                                <p>Description to follow.</p>
-                                <p>
-                                    <a target="_blank" href="https://twitter.com/netxm"><i class="icon-twitter"></i></a>
-                                    <a target="_blank" href="mailto:alex@bachuk.com"><i class="icon-envelope"></i></a>
-                                    <a target="_blank" href="https://github.com/abachuk"><i class="icon-github"></i></a>
-                                    <a target="_blank" href="https://www.linkedin.com/in/alex-bachuk-00455910"><i class="icon-linkedin"></i></a>
-
-                                </p -->
-                            </div>
-
-                            <div class="col-lg-3 team">
-                                <img class="img-circle" src="img/masse.png" height="90" width="90">
-                                <h4>John Masse</h4>
-                                <h5><i>Classmate.io</i></h5>
-                                <p>Description to follow.</p>
-                                <p>
-                                    <a target="_blank" href="https://twitter.com/jjmasse"><i class="icon-twitter"></i></a>
-                                    <a target="_blank" href="mailto:john@jjmasse.com"><i class="icon-envelope"></i></a>
-                                    <a target="_blank" href="https://github.com/jjmasse"><i class="icon-github"></i></a>
-                                    <a target="_blank" href="https://www.linkedin.com/in/johnmasse"><i class="icon-linkedin"></i></a>
-
-                                </p -->
-                            </div>
-
-                            <div class="col-lg-3 team">
-                                <img class="img-circle" src="img/krup.jpg" height="90" width="90">
-                                <h4>Justin Krup</h4>
-                                <h5><i>Bokuga</i></h5>
-                                <p>Justin Krup is a full-stack web and mobile developer using Meteor since version 1.0.</p>
-                                <p>
-                                    <a target="_blank" href="https://twitter.com/mazlix"><i class="icon-twitter"></i></a>
-                                    <a target="_blank" href="mailto:justin@bokuga.com"><i class="icon-envelope"></i></a>
-                                    <a target="_blank" href="https://github.com/mazlix"><i class="icon-github"></i></a>
-                                    <a target="_blank" href="https://www.linkedin.com/in/justinkrup"><i class="icon-linkedin"></i></a>
-
-                                </p -->
-                            </div>
-
-                            <div class="col-lg-3 team">
-                                <img class="img-circle" src="img/solati.jpg" height="90" width="90">
-                                <h4>Michael Solati</h4>
-                                <h5><i>Checkmate Creations</i></h5>
-                                <p>Description to follow.</p>
-                                <br>
-                                <br>
-                                <p>
-                                    <a target="_blank" href="https://twitter.com/mkslt04"><i class="icon-twitter"></i></a>
-                                    <a target="_blank" href="mailto:mkslt04@gmail.com"><i class="icon-envelope"></i></a>
-                                    <a target="_blank" href="https://github.com/MichaelSolati"><i class="icon-github"></i></a>
-                                    <a target="_blank" href="https://www.linkedin.com/in/michaelsolati"><i class="icon-linkedin"></i></a>
-
-                                </p>
-                            </div>
-
-                            <div class="col-lg-3 team">
-                                <img class="img-circle" src="img/owens.jpeg" height="90" width="90">
-                                <h4>Joshua Owens</h4>
-                                <h5><i>4BeanSoup</i></h5>
-                                <p>Description to follow.</p>
-                                <br>
-                                <br>
-                                <p>
-                                    <a target="_blank" href="https://twitter.com/joshowens"><i class="icon-twitter"></i></a>
-                                    <a target="_blank" href="joshua.owens@gmail.com"><i class="icon-envelope"></i></a>
-                                    <a target="_blank" href="https://github.com/queso"><i class="icon-github"></i></a>
-                                    <a target="_blank" href="https://www.linkedin.com/in/joshuaowens"><i class="icon-linkedin"></i></a>
-                                    <a target="_blank" href="http://joshowens.me/"><i class="icon-pencil"></i></a>
-
-                                </p>
-                            </div>
-
-                            <div class="col-lg-3 team">
-                                <img class="img-circle" src="img/sands-ramshaw.jpg" height="90" width="90">
-                                <h4>Loren Sands-Ramshaw</h4>
-                                <h5><i>Parlay</i></h5>
-                                <p>Description to follow.</p>
-                                <br>
-                                <br>
-                                <p>
-                                    <a target="_blank" href="https://twitter.com/lorendsr"><i class="icon-twitter"></i></a>
-                                    <a target="_blank" href="mailto:lorensr@gmail.com "><i class="icon-envelope"></i></a>
-                                    <a target="_blank" href="https://github.com/lorensr"><i class="icon-github"></i></a>
-                                    <a target="_blank" href="https://www.linkedin.com/in/loren-sands-ramshaw-826256b"><i class="icon-linkedin"></i></a>
-                                    <a target="_blank" href="https://medium.com/@lorendsr"><i class="icon-pencil"></i></a>
-                                </p>
-                            </div>
-
-                            <div class="col-lg-3 team">
-                                <img class="img-circle" src="img/mee.png" height="90" width="90">
-                                <h4>Chaz Mee</h4>
-                                <h5><i>Placelist</i></h5>
-                                <p>Description to follow.</p>
-                                <p>
-                                    <a target="_blank" href="https://twitter.com/cmeethree"><i class="icon-twitter"></i></a>
-                                    <a target="_blank" href="mailto:chaz.mee@gmail.com"><i class="icon-envelope"></i></a>
-                                    <a target="_blank" href="https://github.com/cmeethree"><i class="icon-github"></i></a>
-                                    <a target="_blank" href="https://www.linkedin.com/in/chazmee"><i class="icon-linkedin"></i></a>
-                                    <a target="_blank" href="http://www.chazmee.com/"><i class="icon-pencil"></i></a>
-                                </p>
-                            </div>
-
-                            <div class="col-lg-3 team">
-                                <img class="img-circle" src="img/czerwonka.jpg" height="90" width="90">
-                                <h4>Matthias Czerwonka</h4>
-                                <h5><i>Innodata</i></h5>
-                                <p>Description to follow.</p>
-                                <p>
-                                    <a  target="_blank" href="index.html#"><i class="icon-twitter"></i></a>
-                                    <a  target="_blank" href="index.html#"><i class="icon-envelope"></i></a>
-                                    <a  target="_blank" href="index.html#"><i class="icon-github"></i></a>
-                                    <a  target="_blank" href="index.html#"><i class="icon-linkedin"></i></a>
-
-                                </p>
-                            </div>
-
-                            <div class="col-lg-3 team">
-                                <img class="img-circle" src="img/dickert.jpeg" height="90" width="90">
-                                <h4>Robert Dickert</h4>
-                                <h5><i>OK GROW!</i></h5>
-                                <p>Description to follow.</p>
-                                <p>
-                                    <a  target="_blank" href="index.html#"><i class="icon-twitter"></i></a>
-                                    <a  target="_blank" href="index.html#"><i class="icon-envelope"></i></a>
-                                    <a  target="_blank" href="index.html#"><i class="icon-github"></i></a>
-                                    <a  target="_blank" href="index.html#"><i class="icon-linkedin"></i></a>
-
-                                </p>
-                            </div>
-
-                            <!-- div class="col-lg-3 team">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1 text-center">
+            <h1>The Presenters</h1>
+            <hr class="small">
+            <div id="g">
+              <div class="row">
+                <br>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                  <p class="lead">We'll publish the list of speakers, tutors, and presenters as they confirm their attendance with us.</p>
+                  <br>
+                  <br> </div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-3 team">
+                  <img class="img-circle" src="img/susiripala.jpg" height="90" width="90">
+                  <h4>Arunoda Susiripala</h4>
+                  <h5>
+                    <i>Kadira</i>
+                  </h5>
+                  <p>Arunoda is the founder of Kadira and JavaScript hacker who loves Meteor, React and GraphQL.</p>
+                  <p>
+                    <a target="_blank" href="https://twitter.com/arunoda">
+                      <i class="icon-twitter"></i>
+                    </a>
+                    <a target="_blank" href="mailto:arunoda.susiripala@gmail.com">
+                      <i class="icon-envelope"></i>
+                    </a>
+                    <a target="_blank" href="https://github.com/arunoda">
+                      <i class="icon-github"></i>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/arunoda">
+                      <i class="icon-linkedin"></i>
+                    </a>
+                  </p>
+                </div>
+                <div class="col-lg-3 team">
+                  <img class="img-circle" src="img/watson.jpg" height="90" width="90">
+                  <h4>Abigail Watson</h4>
+                  <h5>
+                    <i>Pentasyllabic Studios</i>
+                  </h5>
+                  <p>Abigail, a clinical applications architect and bioinformaticist, is a past contributor to Velocity.</p>
+                  <p>
+                    <a target="_blank" href="https://twitter.com/awatson1978">
+                      <i class="icon-twitter"></i>
+                    </a>
+                    <a target="_blank" href="mailto:awatson1978@gmail.com">
+                      <i class="icon-envelope"></i>
+                    </a>
+                    <a target="_blank" href="https://github.com/awatson1978">
+                      <i class="icon-github"></i>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/abigailwatson">
+                      <i class="icon-linkedin"></i>
+                    </a>
+                  </p>
+                </div>
+                <div class="col-lg-3 team">
+                  <img class="img-circle" src="img/goldenberg.png" height="90" width="90">
+                  <h4>Tom Goldenberg</h4>
+                  <h5>
+                    <i>Agolo</i>
+                  </h5>
+                  <p>Tom is a web and mobile engineer for the text summarization platform Agolo.</p>
+                  <p>
+                    <a target="_blank" href="https://twitter.com/tomgoldenberg">
+                      <i class="icon-twitter"></i>
+                    </a>
+                    <a target="_blank" href="mailto:thomasagoldenberg@gmail.com">
+                      <i class="icon-envelope"></i>
+                    </a>
+                    <a target="_blank" href="https://github.com/tgoldenberg">
+                      <i class="icon-github"></i>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/tom-goldenberg-67054b88">
+                      <i class="icon-linkedin"></i>
+                    </a>
+                    <a target="_blank" href="https://medium.com/@tomgoldenberg">
+                      <i class="icon-pencil"></i>
+                    </a>
+                  </p>
+                </div>
+                <div class="col-lg-3 team">
+                  <img class="img-circle" src="img/ramsay.jpg" height="90" width="90">
+                  <h4>Anders Ramsay</h4>
+                  <h5>
+                    <i>codechron.com</i>
+                  </h5>
+                  <p>Anders Ramsay is a UX designer; developer and Agile Coach; and the organizer of the Agile Experience Design Meetup.</p>
+                  <p>
+                    <a target="_blank" href="https://twitter.com/andersramsay">
+                      <i class="icon-twitter"></i>
+                    </a>
+                    <a target="_blank" href="mailto:andersr@gmail.com">
+                      <i class="icon-envelope"></i>
+                    </a>
+                    <a target="_blank" href="https://github.com/andersr">
+                      <i class="icon-github"></i>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/andersramsay">
+                      <i class="icon-linkedin"></i>
+                    </a>
+                    <a target="_blank" href="http://coderchronicles.org/about/">
+                      <i class="icon-pencil"></i>
+                    </a>
+                  </p>
+                </div>
+                <div class="col-lg-3 team">
+                  <img class="img-circle" src="img/alanbrown.jpg" height="90" width="90">
+                  <h4>Nick Alan Brown</h4>
+                  <h5>
+                    <i>Huge</i>
+                  </h5>
+                  <p>Description to follow.</p>
+                  <p>
+                    <a target="_blank" href="https://twitter.com/nicholasalanb">
+                      <i class="icon-twitter"></i>
+                    </a>
+                    <a target="_blank" href="mailto:nicholasalanbrown@gmail.com">
+                      <i class="icon-envelope"></i>
+                    </a>
+                    <!-- a target="_blank" href=""><i class="icon-github"></i></a -->
+                    <a target="_blank" href="https://www.linkedin.com/in/nicholasalanbrown">
+                      <i class="icon-linkedin"></i>
+                    </a>
+                  </p -->
+                </div>
+                <div class="col-lg-3 team">
+                  <img class="img-circle" src="img/larson.jpg" height="90" width="90">
+                  <h4>Curtis Larson</h4>
+                  <h5>
+                    <i>Quackware</i>
+                  </h5>
+                  <p>Description to follow.</p>
+                  <p>
+                    <a target="_blank" href="https://twitter.com/quackware">
+                      <i class="icon-twitter"></i>
+                    </a>
+                    <a target="_blank" href="mailto:curtis@curtismlarson.com">
+                      <i class="icon-envelope"></i>
+                    </a>
+                    <a target="_blank" href="https://www.github.com/quackware">
+                      <i class="icon-github"></i>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/profile/view?id=133830767">
+                      <i class="icon-linkedin"></i>
+                    </a>
+                  </p>
+                </div>
+                <div class="col-lg-3 team">
+                  <img class="img-circle" src="img/bachuk.jpg" height="90" width="90">
+                  <h4>Alex Bachuk</h4>
+                  <h5>
+                    <i>Classmate.io</i>
+                  </h5>
+                  <p>Description to follow.</p>
+                  <p>
+                    <a target="_blank" href="https://twitter.com/netxm">
+                      <i class="icon-twitter"></i>
+                    </a>
+                    <a target="_blank" href="mailto:alex@bachuk.com">
+                      <i class="icon-envelope"></i>
+                    </a>
+                    <a target="_blank" href="https://github.com/abachuk">
+                      <i class="icon-github"></i>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/alex-bachuk-00455910">
+                      <i class="icon-linkedin"></i>
+                    </a>
+                  </p -->
+                </div>
+                <div class="col-lg-3 team">
+                  <img class="img-circle" src="img/masse.png" height="90" width="90">
+                  <h4>John Masse</h4>
+                  <h5>
+                    <i>Classmate.io</i>
+                  </h5>
+                  <p>Description to follow.</p>
+                  <p>
+                    <a target="_blank" href="https://twitter.com/jjmasse">
+                      <i class="icon-twitter"></i>
+                    </a>
+                    <a target="_blank" href="mailto:john@jjmasse.com">
+                      <i class="icon-envelope"></i>
+                    </a>
+                    <a target="_blank" href="https://github.com/jjmasse">
+                      <i class="icon-github"></i>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/johnmasse">
+                      <i class="icon-linkedin"></i>
+                    </a>
+                  </p -->
+                </div>
+                <div class="col-lg-3 team">
+                  <img class="img-circle" src="img/krup.jpg" height="90" width="90">
+                  <h4>Justin Krup</h4>
+                  <h5>
+                    <i>Bokuga</i>
+                  </h5>
+                  <p>Justin Krup is a full-stack web and mobile developer using Meteor since version 1.0.</p>
+                  <p>
+                    <a target="_blank" href="https://twitter.com/mazlix">
+                      <i class="icon-twitter"></i>
+                    </a>
+                    <a target="_blank" href="mailto:justin@bokuga.com">
+                      <i class="icon-envelope"></i>
+                    </a>
+                    <a target="_blank" href="https://github.com/mazlix">
+                      <i class="icon-github"></i>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/justinkrup">
+                      <i class="icon-linkedin"></i>
+                    </a>
+                  </p -->
+                </div>
+                <div class="col-lg-3 team">
+                  <img class="img-circle" src="img/solati.jpg" height="90" width="90">
+                  <h4>Michael Solati</h4>
+                  <h5>
+                    <i>Checkmate Creations</i>
+                  </h5>
+                  <p>Description to follow.</p>
+                  <br>
+                  <br>
+                  <p>
+                    <a target="_blank" href="https://twitter.com/mkslt04">
+                      <i class="icon-twitter"></i>
+                    </a>
+                    <a target="_blank" href="mailto:mkslt04@gmail.com">
+                      <i class="icon-envelope"></i>
+                    </a>
+                    <a target="_blank" href="https://github.com/MichaelSolati">
+                      <i class="icon-github"></i>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/michaelsolati">
+                      <i class="icon-linkedin"></i>
+                    </a>
+                  </p>
+                </div>
+                <div class="col-lg-3 team">
+                  <img class="img-circle" src="img/owens.jpeg" height="90" width="90">
+                  <h4>Joshua Owens</h4>
+                  <h5>
+                    <i>4BeanSoup</i>
+                  </h5>
+                  <p>Description to follow.</p>
+                  <br>
+                  <br>
+                  <p>
+                    <a target="_blank" href="https://twitter.com/joshowens">
+                      <i class="icon-twitter"></i>
+                    </a>
+                    <a target="_blank" href="joshua.owens@gmail.com">
+                      <i class="icon-envelope"></i>
+                    </a>
+                    <a target="_blank" href="https://github.com/queso">
+                      <i class="icon-github"></i>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/joshuaowens">
+                      <i class="icon-linkedin"></i>
+                    </a>
+                    <a target="_blank" href="http://joshowens.me/">
+                      <i class="icon-pencil"></i>
+                    </a>
+                  </p>
+                </div>
+                <div class="col-lg-3 team">
+                  <img class="img-circle" src="img/sands-ramshaw.jpg" height="90" width="90">
+                  <h4>Loren Sands-Ramshaw</h4>
+                  <h5>
+                    <i>Parlay</i>
+                  </h5>
+                  <p>Description to follow.</p>
+                  <br>
+                  <br>
+                  <p>
+                    <a target="_blank" href="https://twitter.com/lorendsr">
+                      <i class="icon-twitter"></i>
+                    </a>
+                    <a target="_blank" href="mailto:lorensr@gmail.com ">
+                      <i class="icon-envelope"></i>
+                    </a>
+                    <a target="_blank" href="https://github.com/lorensr">
+                      <i class="icon-github"></i>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/loren-sands-ramshaw-826256b">
+                      <i class="icon-linkedin"></i>
+                    </a>
+                    <a target="_blank" href="https://medium.com/@lorendsr">
+                      <i class="icon-pencil"></i>
+                    </a>
+                  </p>
+                </div>
+                <div class="col-lg-3 team">
+                  <img class="img-circle" src="img/mee.png" height="90" width="90">
+                  <h4>Chaz Mee</h4>
+                  <h5>
+                    <i>Placelist</i>
+                  </h5>
+                  <p>Description to follow.</p>
+                  <p>
+                    <a target="_blank" href="https://twitter.com/cmeethree">
+                      <i class="icon-twitter"></i>
+                    </a>
+                    <a target="_blank" href="mailto:chaz.mee@gmail.com">
+                      <i class="icon-envelope"></i>
+                    </a>
+                    <a target="_blank" href="https://github.com/cmeethree">
+                      <i class="icon-github"></i>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/chazmee">
+                      <i class="icon-linkedin"></i>
+                    </a>
+                    <a target="_blank" href="http://www.chazmee.com/">
+                      <i class="icon-pencil"></i>
+                    </a>
+                  </p>
+                </div>
+                <div class="col-lg-3 team">
+                  <img class="img-circle" src="img/czerwonka.jpg" height="90" width="90">
+                  <h4>Matthias Czerwonka</h4>
+                  <h5>
+                    <i>Innodata</i>
+                  </h5>
+                  <p>Description to follow.</p>
+                  <p>
+                    <a target="_blank" href="index.html#">
+                      <i class="icon-twitter"></i>
+                    </a>
+                    <a target="_blank" href="index.html#">
+                      <i class="icon-envelope"></i>
+                    </a>
+                    <a target="_blank" href="index.html#">
+                      <i class="icon-github"></i>
+                    </a>
+                    <a target="_blank" href="index.html#">
+                      <i class="icon-linkedin"></i>
+                    </a>
+                  </p>
+                </div>
+                <div class="col-lg-3 team">
+                  <img class="img-circle" src="img/dickert.jpeg" height="90" width="90">
+                  <h4>Robert Dickert</h4>
+                  <h5>
+                    <i>OK GROW!</i>
+                  </h5>
+                  <p>Description to follow.</p>
+                  <p>
+                    <a target="_blank" href="index.html#">
+                      <i class="icon-twitter"></i>
+                    </a>
+                    <a target="_blank" href="index.html#">
+                      <i class="icon-envelope"></i>
+                    </a>
+                    <a target="_blank" href="index.html#">
+                      <i class="icon-github"></i>
+                    </a>
+                    <a target="_blank" href="index.html#">
+                      <i class="icon-linkedin"></i>
+                    </a>
+                  </p>
+                </div>
+                <!-- div class="col-lg-3 team">
                                 <img class="img-circle" src="img/watermark250.png" height="90" width="90">
                                 <h4>Speaker</h4>
                                 <h5><i>Company</i></h5>
@@ -492,157 +617,183 @@
 
                                 </p>
                             </div -->
-
-                        </div>
-                        <!-- /container -->
-                    </div><!-- /g -->
-                    <!-- /.row (nested) -->
-                    <br>
-                    <!-- a target="_blank" href="http://eepurl.com/b0YUzH" class="btn btn-dark btn-lg">I Want To Present!</a -->
-                </div>
-                <!-- /.col-lg-10 -->
+              </div>
+              <!-- /container -->
             </div>
-            <!-- /.row -->
+            <!-- /g -->
+            <!-- /.row (nested) -->
+            <br>
+            <!-- a target="_blank" href="http://eepurl.com/b0YUzH" class="btn btn-dark btn-lg">I Want To Present!</a -->
+          </div>
+          <!-- /.col-lg-10 -->
         </div>
-        <!-- /.container -->
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
     </section>
-
     <!-- Call to Action -->
     <aside id="partners" class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h1>Partnering with Meteor Camp NYC</h1>
-                    <h3>We have defined four (4) partner tiers to allow for broad participation. From our Platinum level ($5,000) all the way down to our Community tier ($500), we've striven to minimize the cost for supporters so that all can find a way to participate. Two (2) special add-on levels allow partners to target specific spending, with the Keynote add-on ($2,500) designed to defray the international travel, lodging and food costs for our keynote speaker.<br>Founding partners will enjoy discounts on future annual Meteor Camp NYC events. If you want to know more, contact us using the link below.</h3>
-                    <a href="mailto:info@meteorcamp.nyc?subject=I'm%20thinking%20of%20paartnering%20Meteor%20Camp%20NYC&body=%0D%0AI'd%20like%20to%20learn%20more%20about%20your%20partnership%20opportunities.%20Contact%20me%20at%20your%20earliest%20convenience.%0D%0A%0D%0A" class="btn btn-lg btn-dark">Learn More About Partnering</a>
-                    <h3><a href="etc/MeteorCamp2016Prospectusv. 1.3.pdf"><button>Download the Meteor Camp NYC 2016 Prospectus</a></button></h3>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 centered partner">
+            <h2 class="partner-package">Founding Keynote Partner</h2>
+            <a href="https://www.meteor.com" target="_blank">
+              <img src="img/mdg.svg" width="300"> </a>
+          </div>
+          <div class="col-lg-12 centered partner">
+            <h2 class="partner-package">Founding Gold Partner</h2>
+            <a href="https://www.okgrow.com" target="_blank">
+              <img src="img/okgrow.png" width="300"> </a>
+          </div>
+          <div class="col-lg-12 centered partner">
+            <h2 class="partner-package">Founding Community Partner</h2>
+            <a href="http://www.checkmatecreations.com" target="_blank">
+              <img src="img/checkmate-creations.svg" width="300"> </a>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h1>Partnering with Meteor Camp NYC</h1>
+            <h3>We have defined four (4) partner tiers to allow for broad participation. From our Platinum level ($5,000) all the way down to our Community tier ($500), we've striven to minimize the cost for supporters so that all can find a way to participate.
+              Two (2) special add-on levels allow partners to target specific spending, with the Keynote add-on ($2,500) designed to defray the international travel, lodging and food costs for our keynote speaker.
+              <br>Founding partners will enjoy discounts on future annual Meteor Camp NYC events. If you want to know more, contact us using the link below.</h3>
+            <a href="mailto:info@meteorcamp.nyc?subject=I'm%20thinking%20of%20paartnering%20Meteor%20Camp%20NYC&body=%0D%0AI'd%20like%20to%20learn%20more%20about%20your%20partnership%20opportunities.%20Contact%20me%20at%20your%20earliest%20convenience.%0D%0A%0D%0A"
+                class="btn btn-lg btn-dark">Learn More About Partnering</a>
+            <h3>
+              <a href="etc/MeteorCamp2016Prospectusv. 1.3.pdf">
+                <button>Download the Meteor Camp NYC 2016 Prospectus</a>
+              </button>
+            </h3>
+          </div>
+        </div>
+      </div>
     </aside>
-
     <!-- Call to Action -->
     <aside id="registration" class="call-to-action bg-default">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h1>Register to Attend</h1>
-                    <h3><em><strong>Registration is now open.</strong> Meteor Camp NYC is open to all, however, we suggest making a $20 donation per ticket to help defray the cost of putting on the event. Please set the amount to $0 if needed or increase it if you're feeling generous.</em></h3>
-                    <br>
-                    <p>Limit 2 tickets per order. Please email us if you'd like to add more to your order. Requests will be granted based on ticket availability and at the sole discretion of the organizers.</p>
-                    <br>
-                    <tito-widget event="meteor-camp-nyc/meteor-camp-nyc-2016"></tito-widget>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h1>Register to Attend</h1>
+            <h3>
+              <em>
+                <strong>Registration is now open.</strong> Meteor Camp NYC is open to all, however, we suggest making a $20 donation per ticket to help defray the cost of putting on the event. Please set the amount to $0 if needed or increase it if you're feeling
+                generous.</em>
+            </h3>
+            <br>
+            <p>Limit 2 tickets per order. Please email us if you'd like to add more to your order. Requests will be granted based on ticket availability and at the sole discretion of the organizers.</p>
+            <br>
+            <tito-widget event="meteor-camp-nyc/meteor-camp-nyc-2016"></tito-widget>
+          </div>
         </div>
+      </div>
     </aside>
-
     <!-- Map -->
     <section id="contact" class="map">
       <iframe id="map_contact" width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.5977546776085!2d-73.97020314925929!3d40.74887577922652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2591ce0874d11%3A0xc5fae28bdd3df635!2sUnited+Nations+Headquarters!5e0!3m2!1sen!2sus!4v1461024642474">
         <br />
         <small>
-            <a href="https://www.google.com/maps/place/United+Nations+Headquarters/@40.7488758,-73.9702031,17z/data=!3m1!4b1!4m2!3m1!1s0x89c2591ce0874d11:0xc5fae28bdd3df635"></a>
+          <a href="https://www.google.com/maps/place/United+Nations+Headquarters/@40.7488758,-73.9702031,17z/data=!3m1!4b1!4m2!3m1!1s0x89c2591ce0874d11:0xc5fae28bdd3df635"></a>
         </small>
       </iframe>
     </section>
-
     <!-- Footer -->
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Meteor Camp NYC</strong>
-                    </h4>
-                    <p>United Nations Headquarters<br>New York, NY 10017</p>
-                    <ul class="list-unstyled">
-                        <!-- li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li -->
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:info@meteorcamp.nyc">info@meteorcamp.nyc</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/MeteorCampNYC" target="_twitter"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-pencil fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; Meteor Camp NYC 2016</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1 text-center">
+            <h4>
+              <strong>Meteor Camp NYC</strong>
+            </h4>
+            <p>United Nations Headquarters
+              <br>New York, NY 10017</p>
+            <ul class="list-unstyled">
+              <!-- li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li -->
+              <li>
+                <i class="fa fa-envelope-o fa-fw"></i>
+                <a href="mailto:info@meteorcamp.nyc">info@meteorcamp.nyc</a>
+              </li>
+            </ul>
+            <br>
+            <ul class="list-inline">
+              <li>
+                <a href="#">
+                  <i class="fa fa-facebook fa-fw fa-3x"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/MeteorCampNYC" target="_twitter">
+                  <i class="fa fa-twitter fa-fw fa-3x"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-pencil fa-fw fa-3x"></i>
+                </a>
+              </li>
+            </ul>
+            <hr class="small">
+            <p class="text-muted">Copyright &copy; Meteor Camp NYC 2016</p>
+          </div>
         </div>
+      </div>
     </footer>
-
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
     <!-- Custom Theme JavaScript -->
     <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
+      // Closes the sidebar menu
+      $("#menu-close").click(function(e) {
         e.preventDefault();
         $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
+      });
+      // Opens the sidebar menu
+      $("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Scrolls to the selected menu item on the page
-    $(function() {
+      });
+      // Scrolls to the selected menu item on the page
+      $(function() {
         $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
+          if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
             }
+          }
         });
-    });
-
-    $('#map_contact').addClass('scrolloff'); // set the pointer events to none on doc ready
-    $('#contact').on('click', function () {
+      });
+      $('#map_contact').addClass('scrolloff'); // set the pointer events to none on doc ready
+      $('#contact').on('click', function() {
         $('#map_contact').removeClass('scrolloff'); // set the pointer events true on click
-    });
-
-    // you want to disable pointer events when the mouse leave the canvas area;
-
-    $("#map_contact").mouseleave(function () {
+      });
+      // you want to disable pointer events when the mouse leave the canvas area;
+      $("#map_contact").mouseleave(function() {
         $('#map_contact').addClass('scrolloff'); // set the pointer events to none when mouse leaves the map area
-    });
+      });
     </script>
-
     <!-- Countdown timer script -->
     <script src='js/countdowntimer.js' async></script>
-
-
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    
+      (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
       ga('create', 'UA-78970091-1', 'auto');
       ga('send', 'pageview');
-    
     </script>
-
-</body>
+  </body>
 
 </html>
