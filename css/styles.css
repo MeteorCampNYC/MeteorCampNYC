@@ -202,7 +202,7 @@ a:after {
 }
 
 @media(max-device-width : 736px){
-        
+
     .map {
         height: 75%;
     }
@@ -218,4 +218,13 @@ a:after {
     .smalltext{
         font-size: 14px;
     }
+}
+
+.sponsor {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.sponsor-package {
+	margin-bottom: 30px;
 }
