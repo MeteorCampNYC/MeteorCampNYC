@@ -138,6 +138,7 @@ a:after {
 
 .team {
 	padding-top: 20px;
+	height: 300px;
 }
 
 .team:hover {
