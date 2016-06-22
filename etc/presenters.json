@@ -1,5 +1,3 @@
-Name, Headshot, Organization, Position, Bio, DetailedBio, Title, Description, Preso, Facebook, Twitter, Github, LinkedIn, Medium, Website, Blog, PriorPresos, Panel1, Panel2, OpeningKeynote, ClosingKeynote, Session1, Session2, Session2, Alternate
-
 { "Format Help" : {
 		"Prior Preso" : "'Source' is a hyperlink to the presentation",
 		"Total Talks" : "1 || < 3  Use 1 if the presenter is an alternate",
