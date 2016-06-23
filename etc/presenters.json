@@ -15,13 +15,13 @@
 
   "panels": {
     "Panel1": {
-      "title": " ",
-      "description": " ",
-      "lineup": " "
+      "title": "",
+      "description": "",
+      "lineup": ""
     },
     "Panel2": {
       "title": "Is Meteor an Optimal Platform for Developing Mission-Driven Solutions for Civic, Social and Humanitarian Efforts?",
-      "description": " ",
+      "description": "",
       "lineup": 6
     }
   },
@@ -31,20 +31,20 @@
       "name": "Anders Ramsay",
       "headshot": "img/ramsay.jpg",
       "organization": "codechron.com",
-      "position": " ",
+      "position": "",
       "bio": {
         "short": "Anders Ramsay speaks about and teaches Meteor frequently. Follow him on Twitter at @codechron or @andersramsay",
         "long": "Anders Ramsay is a UX designer; developer and Agile Coach; and the organizer of the Agile Experience Design Meetup; who regularly conducts workshops on coding, UX, and Agile practices. Anders blogs about coding and about UX and Agile. Follow him on Twitter at @codechron or @andersramsay."
       },
 
-      "presoSource": " ",
+      "presoSource": "",
       "socialLinks": {
-        "email": " ",
-        "facebook": " ",
+        "email": "",
+        "facebook": "",
         "twitter": "https://twitter.com/codechron",
         "github": "https://github.com/andersr",
         "linkedIn": "https://www.linkedin.com/in/andersramsay",
-        "medium": " ",
+        "medium": "",
         "website": "http://andersramsay.com/",
         "blog": "http://codechron.org/"
       },
@@ -61,20 +61,20 @@
       "totalTalks": 2,
       "participation": [{
         "type": "Tutorial Workshop",
-        "lineup": " ",
-        "event": " ",
+        "lineup": "",
+        "event": "",
         "title": "Building a Web App with Meteor, React, and FlowRouter",
         "description": "In this tutorial, we'll walk through some key parts of building a Meteor app with a React view layer.  We'll show how to effectively integrate FlowRouter with React components.  In particular, we'll discuss how to pass props from a top-level React component 'through' FlowRouter down to route-specific components.  We'll also discuss how to use the container model in Meteor to manage component data, as well as how to create components with optional features that we can then 'turn on' for a certain context. And finally, we'll talk about why having shared 'global' components is a React anti-pattern and what is a better alternative.",
         "shared": "False",
         "alternate": "False"
       }, {
         "type": "Panel Discussion",
-        "lineup": " ",
-        "event": " ",
-        "title": " ",
-        "description": " ",
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
         "shared": "",
-        "alternate": " "
+        "alternate": ""
       }]
 
     },
@@ -84,52 +84,52 @@
       "name": "Arunoda Susiripala",
       "headshot": "img/susiripala.jpg",
       "organization": "Kadira",
-      "position": " ",
+      "position": "",
       "bio": {
         "short": "Arunoda is the founder of Kadira and JavaScript hacker who loves Meteor, React and GraphQL",
-        "long": " "
+        "long": ""
       },
 
-      "presoSource": " ",
+      "presoSource": "",
       "socialLinks": {
         "email": "arunoda.susiripala@gmail.com",
-        "facebook": " ",
+        "facebook": "",
         "twitter": "https://twitter.com/arunoda",
         "github": "https://github.com/arunoda",
         "linkedIn": "https://www.linkedin.com/in/arunoda",
-        "medium": " ",
-        "website": " ",
+        "medium": "",
+        "website": "",
         "blog": "http://voice.kadira.io"
       },
       "priorPresos": [{
         "title": "Earlier Talks by Arunoda",
-        "source": " https://speakerdeck.com/arunoda"
+        "source": "https://speakerdeck.com/arunoda"
       }],
       "totalTalks": 3,
       "participation": [{
         "type": "Keynote",
-        "lineup": " ",
-        "event": " ",
+        "lineup": "",
+        "event": "",
         "title": "What Meteor Looks Like in 2018",
-        "description": " ",
-        "shared": " ",
-        "alternate": " "
+        "description": "",
+        "shared": "",
+        "alternate": ""
       }, {
         "type": "Panel Discussion",
-        "lineup": " ",
-        "event": " ",
-        "title": " ",
-        "description": " ",
-        "shared": " ",
-        "alternate": " "
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
       }, {
-        "type": " ",
-        "lineup": " ",
-        "event": " ",
-        "title": " ",
-        "description": " ",
-        "shared": " ",
-        "alternate": " "
+        "type": "",
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
       }]
     },
 
@@ -138,44 +138,44 @@
       "name": "Abigail Watson",
       "headshot": "img/watson.jpg",
       "organization": "Symptomatic.io",
-      "position": " ",
+      "position": "",
       "bio": {
         "short": "Abigail is a bioinformaticist and curator of the Clinical Meteor Track.",
-        "long": " "
+        "long": ""
       },
 
-      "presoSource": " ",
+      "presoSource": "",
       "socialLinks": {
         "email": "awatson1978@gmail.com",
-        "facebook": " ",
-        "twitter": " ",
-        "github": " ",
-        "linkedIn": " ",
-        "medium": " ",
-        "website": " ",
-        "blog": " "
+        "facebook": "",
+        "twitter": "",
+        "github": "",
+        "linkedIn": "",
+        "medium": "",
+        "website": "",
+        "blog": ""
       },
       "priorPresos": [{
-        "title": " ",
-        "source": " "
+        "title": "",
+        "source": ""
       }],
       "totalTalks": 2,
       "participation": [{
         "type": "Technical Discussion",
-        "lineup": " ",
-        "event": " ",
+        "lineup": "",
+        "event": "",
         "title": "Writing Healthcare Apps with Meteor:  An intro to HIPAA, FDA, and HL7 FHIR",
         "description": "This talk will give you a high-level introduction to the Clinical Meteor Track, and introduce you to resources for creating HIPAA compliant applications, building quality assurance initiatives that can get your app through FDA review, and using HL7 to interoperate with existing EMR systems.",
-        "shared": " ",
-        "alternate": " "
+        "shared": "",
+        "alternate": ""
       }, {
         "type": "Panel Discussion",
-        "lineup": " ",
-        "event": " ",
-        "title": " ",
-        "description": " ",
-        "shared": " ",
-        "alternate": " "
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
       }]
     },
 
@@ -184,22 +184,22 @@
       "name": "Tom Goldenberg",
       "headshot": "img/goldenberg.png",
       "organization": "Agolo",
-      "position": " ",
+      "position": "",
       "bio": {
         "short": "Tom is a web and mobile engineer for the text summarization platform Agolo",
-        "long": " "
+        "long": ""
       },
 
-      "presoSource": " ",
+      "presoSource": "",
       "socialLinks": {
         "email": "thomasagoldenberg@gmail.com",
-        "facebook": " ",
+        "facebook": "",
         "twitter": "https://twitter.com/tomgoldenberg",
         "github": "https://github.com/tgoldenberg",
-        "linkedIn": " ",
+        "linkedIn": "",
         "medium": "https://medium.com/@tomgoldenberg",
-        "website": " ",
-        "blog": " "
+        "website": "",
+        "blog": ""
       },
       "priorPresos": [{
         "title": "Building Multi-Platform Native Apps with Meteor",
@@ -208,20 +208,20 @@
       "totalTalks": 2,
       "participation": [{
         "type": "Technical Discussion",
-        "lineup": " ",
-        "event": " ",
+        "lineup": "",
+        "event": "",
         "title": "From Zero to Beta with Meteor and React Native",
         "description": "Tom will be showcasing an app built with Meteor and React Native made just for this conference. He will be explaining the steps to take in order to quickly build an MVP and how to improve it through iterations. We will also see how we can use Meteor and React Native together to build high-quality native apps for both web and mobile.",
         "shared": "False",
         "alternate": "False"
       }, {
         "type": "Panel Discussion",
-        "lineup": " ",
-        "event": " ",
-        "title": " ",
-        "description": " ",
-        "shared": " ",
-        "alternate": " "
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
       }]
     },
 
@@ -230,44 +230,44 @@
       "name": "Nick Alan Brown",
       "headshot": "img/alanbrown.jpg",
       "organization": "Huge",
-      "position": " ",
+      "position": "",
       "bio": {
-        "short": " ",
-        "long": " "
+        "short": "",
+        "long": ""
       },
 
-      "presoSource": " ",
+      "presoSource": "",
       "socialLinks": {
-        "email": " ",
-        "facebook": " ",
-        "twitter": " ",
-        "github": " ",
-        "linkedIn": " ",
-        "medium": " ",
-        "website": " ",
-        "blog": " "
+        "email": "",
+        "facebook": "",
+        "twitter": "",
+        "github": "",
+        "linkedIn": "",
+        "medium": "",
+        "website": "",
+        "blog": ""
       },
       "priorPresos": [{
-        "title": " ",
-        "source": " "
+        "title": "",
+        "source": ""
       }],
       "totalTalks": 2,
       "participation": [{
         "type": "Technical Discussion",
-        "lineup": " ",
-        "event": " ",
-        "title": " ",
-        "description": " ",
-        "shared": " ",
-        "alternate": " "
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
       }, {
         "type": "Panel Discussion",
-        "lineup": " ",
-        "event": " ",
-        "title": " ",
-        "description": " ",
-        "shared": " ",
-        "alternate": " "
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
       }]
     },
 
@@ -276,36 +276,36 @@
       "name": "Curtis Larson",
       "headshot": "img/larson.jpg",
       "organization": "Quackware",
-      "position": " ",
+      "position": "",
       "bio": {
         "short": "Justin Krup is a full-stack web and mobile developer using Meteor since version 1.0.",
-        "long": " "
+        "long": ""
       },
 
-      "presoSource": " ",
+      "presoSource": "",
       "socialLinks": {
-        "email": " ",
-        "facebook": " ",
-        "twitter": " ",
-        "github": " ",
-        "linkedIn": " ",
-        "medium": " ",
-        "website": " ",
-        "blog": " "
+        "email": "",
+        "facebook": "",
+        "twitter": "",
+        "github": "",
+        "linkedIn": "",
+        "medium": "",
+        "website": "",
+        "blog": ""
       },
       "priorPresos": [{
-        "title": " ",
-        "source": " "
+        "title": "",
+        "source": ""
       }],
       "totalTalks": 1,
       "participation": [{
-        "type": " ",
-        "lineup": " ",
-        "event": " ",
-        "title": " ",
-        "description": " ",
-        "shared": " ",
-        "alternate": " "
+        "type": "",
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
       }]
     },
 
@@ -314,36 +314,36 @@
       "name": "Alex Bachuk",
       "headshot": "img/bachuk.jpg",
       "organization": "Classmate.io",
-      "position": " ",
+      "position": "",
       "bio": {
-        "short": " ",
-        "long": " "
+        "short": "",
+        "long": ""
       },
 
-      "presoSource": " ",
+      "presoSource": "",
       "socialLinks": {
-        "email": " ",
-        "facebook": " ",
-        "twitter": " ",
-        "github": " ",
-        "linkedIn": " ",
-        "medium": " ",
-        "website": " ",
-        "blog": " "
+        "email": "",
+        "facebook": "",
+        "twitter": "",
+        "github": "",
+        "linkedIn": "",
+        "medium": "",
+        "website": "",
+        "blog": ""
       },
       "priorPresos": [{
-        "title": " ",
-        "source": " "
+        "title": "",
+        "source": ""
       }],
       "totalTalks": 2,
       "participation": [{
-        "type": " ",
-        "lineup": " ",
-        "event": " ",
-        "title": " ",
-        "description": " ",
-        "shared": " ",
-        "alternate": " "
+        "type": "",
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
       }]
     },
 
@@ -352,36 +352,36 @@
       "name": "John Masse",
       "headshot": "img/masse.png",
       "organization": "Classmate.io",
-      "position": " ",
+      "position": "",
       "bio": {
-        "short": " ",
-        "long": " "
+        "short": "",
+        "long": ""
       },
 
-      "presoSource": " ",
+      "presoSource": "",
       "socialLinks": {
-        "email": " ",
-        "facebook": " ",
-        "twitter": " ",
-        "github": " ",
-        "linkedIn": " ",
-        "medium": " ",
-        "website": " ",
-        "blog": " "
+        "email": "",
+        "facebook": "",
+        "twitter": "",
+        "github": "",
+        "linkedIn": "",
+        "medium": "",
+        "website": "",
+        "blog": ""
       },
       "priorPresos": [{
-        "title": " ",
-        "source": " "
+        "title": "",
+        "source": ""
       }],
       "totalTalks": 2,
       "participation": [{
-        "type": " ",
-        "lineup": " ",
-        "event": " ",
-        "title": " ",
-        "description": " ",
-        "shared": " ",
-        "alternate": " "
+        "type": "",
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
       }]
     },
 
@@ -390,36 +390,36 @@
       "name": "Justin Krup",
       "headshot": "img/krup.jpg",
       "organization": "Bokuga",
-      "position": " ",
+      "position": "",
       "bio": {
         "short": "Justin Krup is a full-stack web and mobile developer using Meteor since version 1.0",
-        "long": " "
+        "long": ""
       },
 
-      "presoSource": " ",
+      "presoSource": "",
       "socialLinks": {
-        "email": " ",
-        "facebook": " ",
-        "twitter": " ",
-        "github": " ",
-        "linkedIn": " ",
-        "medium": " ",
-        "website": " ",
-        "blog": " "
+        "email": "",
+        "facebook": "",
+        "twitter": "",
+        "github": "",
+        "linkedIn": "",
+        "medium": "",
+        "website": "",
+        "blog": ""
       },
       "priorPresos": [{
-        "title": " ",
-        "source": " "
+        "title": "",
+        "source": ""
       }],
       "totalTalks": 1,
       "participation": [{
         "type": "Technical Presentation",
-        "lineup": " ",
-        "event": " ",
-        "title": " ",
-        "description": " ",
-        "shared": " ",
-        "alternate": " "
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
       }]
     },
 
@@ -428,36 +428,36 @@
       "name": "Michael Solati",
       "headshot": "img/solati.jpg",
       "organization": "Checkmate Creations",
-      "position": " ",
+      "position": "",
       "bio": {
-        "short": " ",
-        "long": " "
+        "short": "",
+        "long": ""
       },
 
-      "presoSource": " ",
+      "presoSource": "",
       "socialLinks": {
-        "email": " ",
-        "facebook": " ",
-        "twitter": " ",
-        "github": " ",
-        "linkedIn": " ",
-        "medium": " ",
-        "website": " ",
-        "blog": " "
+        "email": "",
+        "facebook": "",
+        "twitter": "",
+        "github": "",
+        "linkedIn": "",
+        "medium": "",
+        "website": "",
+        "blog": ""
       },
       "priorPresos": [{
-        "title": " ",
-        "source": " "
+        "title": "",
+        "source": ""
       }],
       "totalTalks": 1,
       "participation": [{
         "type": "Technical Presentation",
-        "lineup": " ",
-        "event": " ",
-        "title": " ",
-        "description": " ",
-        "shared": " ",
-        "alternate": " "
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
       }]
     },
 
@@ -466,44 +466,44 @@
       "name": "Joshua Owens",
       "headshot": "img/owens.jpeg",
       "organization": "4BeanSoup",
-      "position": " ",
+      "position": "",
       "bio": {
-        "short": " ",
-        "long": " "
+        "short": "",
+        "long": ""
       },
 
-      "presoSource": " ",
+      "presoSource": "",
       "socialLinks": {
-        "email": " ",
-        "facebook": " ",
-        "twitter": " ",
-        "github": " ",
-        "linkedIn": " ",
-        "medium": " ",
-        "website": " ",
-        "blog": " "
+        "email": "",
+        "facebook": "",
+        "twitter": "",
+        "github": "",
+        "linkedIn": "",
+        "medium": "",
+        "website": "",
+        "blog": ""
       },
       "priorPresos": [{
-        "title": " ",
-        "source": " "
+        "title": "",
+        "source": ""
       }],
       "totalTalks": 2,
       "participation": [{
         "type": "Technical Discussion",
-        "lineup": " ",
-        "event": " ",
-        "title": " ",
-        "description": " ",
-        "shared": " ",
-        "alternate": " "
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
       }, {
         "type": "Panel Discussion",
-        "lineup": " ",
-        "event": " ",
-        "title": " ",
-        "description": " ",
-        "shared": " ",
-        "alternate": " "
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
       }]
     },
 
@@ -512,44 +512,44 @@
       "name": "Loren Sands-Ramshaw",
       "headshot": "img/sands-ramshaw.jpg",
       "organization": "Parlay",
-      "position": " ",
+      "position": "",
       "bio": {
-        "short": " ",
-        "long": " "
+        "short": "",
+        "long": ""
       },
 
-      "presoSource": " ",
+      "presoSource": "",
       "socialLinks": {
-        "email": " ",
-        "facebook": " ",
-        "twitter": " ",
-        "github": " ",
-        "linkedIn": " ",
-        "medium": " ",
-        "website": " ",
-        "blog": " "
+        "email": "",
+        "facebook": "",
+        "twitter": "",
+        "github": "",
+        "linkedIn": "",
+        "medium": "",
+        "website": "",
+        "blog": ""
       },
       "priorPresos": [{
-        "title": " ",
-        "source": " "
+        "title": "",
+        "source": ""
       }],
       "totalTalks": 2,
       "participation": [{
         "type": "Tutorial Workshop",
-        "lineup": " ",
-        "event": " ",
-        "title": " ",
-        "description": " ",
-        "shared": " ",
-        "alternate": " "
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
       }, {
         "type": "Panel Discussion",
-        "lineup": " ",
-        "event": " ",
-        "title": " ",
-        "description": " ",
-        "shared": " ",
-        "alternate": " "
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
       }]
     },
 
@@ -558,36 +558,36 @@
       "name": "Chaz Mee",
       "headshot": "img/mee.png",
       "organization": "Placelist",
-      "position": " ",
+      "position": "",
       "bio": {
-        "short": " ",
-        "long": " "
+        "short": "",
+        "long": ""
       },
 
-      "presoSource": " ",
+      "presoSource": "",
       "socialLinks": {
-        "email": " ",
-        "facebook": " ",
-        "twitter": " ",
-        "github": " ",
-        "linkedIn": " ",
-        "medium": " ",
-        "website": " ",
-        "blog": " "
+        "email": "",
+        "facebook": "",
+        "twitter": "",
+        "github": "",
+        "linkedIn": "",
+        "medium": "",
+        "website": "",
+        "blog": ""
       },
       "priorPresos": [{
-        "title": " ",
-        "source": " "
+        "title": "",
+        "source": ""
       }],
       "totalTalks": 1,
       "participation": [{
         "type": "Panel Discussion",
-        "lineup": " ",
-        "event": " ",
-        "title": " ",
-        "description": " ",
-        "shared": " ",
-        "alternate": " "
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
       }]
     },
 
@@ -596,44 +596,44 @@
       "name": "Matt Czerwonka",
       "headshot": "img/czerwonka.jpg",
       "organization": "Innoscale",
-      "position": " ",
+      "position": "",
       "bio": {
-        "short": " ",
-        "long": " "
+        "short": "",
+        "long": ""
       },
 
-      "presoSource": " ",
+      "presoSource": "",
       "socialLinks": {
-        "email": " ",
-        "facebook": " ",
-        "twitter": " ",
-        "github": " ",
-        "linkedIn": " ",
-        "medium": " ",
-        "website": " ",
-        "blog": " "
+        "email": "",
+        "facebook": "",
+        "twitter": "",
+        "github": "",
+        "linkedIn": "",
+        "medium": "",
+        "website": "",
+        "blog": ""
       },
       "priorPresos": [{
-        "title": " ",
-        "source": " "
+        "title": "",
+        "source": ""
       }],
       "totalTalks": 2,
       "participation": [{
         "type": "Product Demonstration",
-        "lineup": " ",
-        "event": " ",
-        "title": " ",
-        "description": " ",
-        "shared": " ",
-        "alternate": " "
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
       }, {
         "type": "Panel Discussion",
-        "lineup": " ",
-        "event": " ",
-        "title": " ",
-        "description": " ",
-        "shared": " ",
-        "alternate": " "
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
       }]
     },
 
@@ -642,52 +642,52 @@
       "name": "Robert Dickert",
       "headshot": "img/dickert.jpeg",
       "organization": "OK GROW!",
-      "position": " ",
+      "position": "",
       "bio": {
-        "short": " ",
-        "long": " "
+        "short": "",
+        "long": ""
       },
 
-      "presoSource": " ",
+      "presoSource": "",
       "socialLinks": {
-        "email": " ",
-        "facebook": " ",
-        "twitter": " ",
-        "github": " ",
-        "linkedIn": " ",
-        "medium": " ",
-        "website": " ",
-        "blog": " "
+        "email": "",
+        "facebook": "",
+        "twitter": "",
+        "github": "",
+        "linkedIn": "",
+        "medium": "",
+        "website": "",
+        "blog": ""
       },
       "priorPresos": [{
-        "title": " ",
-        "source": " "
+        "title": "",
+        "source": ""
       }],
       "totalTalks": 3,
       "participation": [{
         "type": "Tutorial Workshop",
-        "lineup": " ",
-        "event": " ",
-        "title": " ",
-        "description": " ",
-        "shared": " ",
-        "alternate": " "
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
       }, {
         "type": "Panel Discussion",
-        "lineup": " ",
-        "event": " ",
-        "title": " ",
-        "description": " ",
-        "shared": " ",
-        "alternate": " "
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
       }, {
         "type": "Technical Discussion",
-        "lineup": " ",
-        "event": " ",
-        "title": " ",
-        "description": " ",
-        "shared": " ",
-        "alternate": " "
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
       }]
     },
 
@@ -696,36 +696,36 @@
       "name": "Ben Newman",
       "headshot": "img/ben.jpg",
       "organization": "Meteor Development Group",
-      "position": " ",
+      "position": "",
       "bio": {
-        "short": " ",
-        "long": " "
+        "short": "",
+        "long": ""
       },
 
-      "presoSource": " ",
+      "presoSource": "",
       "socialLinks": {
-        "email": " ",
-        "facebook": " ",
-        "twitter": " ",
-        "github": " ",
-        "linkedIn": " ",
-        "medium": " ",
-        "website": " ",
-        "blog": " "
+        "email": "",
+        "facebook": "",
+        "twitter": "",
+        "github": "",
+        "linkedIn": "",
+        "medium": "",
+        "website": "",
+        "blog": ""
       },
       "priorPresos": [{
-        "title": " ",
-        "source": " "
+        "title": "",
+        "source": ""
       }],
       "totalTalks": 1,
       "participation": [{
         "type": "Panel Discussion",
-        "lineup": " ",
-        "event": " ",
+        "lineup": "",
+        "event": "",
         "title": "How Do Changes in the Meteor Experience After Version 1.3 Affect It’s Adoption and Use?",
-        "description": " ",
-        "shared": " ",
-        "alternate": " "
+        "description": "",
+        "shared": "",
+        "alternate": ""
       }]
     },
 
@@ -734,118 +734,118 @@
       "name": "Abhi Aiyer",
       "headshot": "img/aiyer.jpg",
       "organization": "Workpop! Inc.",
-      "position": " ",
+      "position": "",
       "bio": {
-        "short": " ",
-        "long": " "
+        "short": "",
+        "long": ""
       },
 
-      "presoSource": " ",
+      "presoSource": "",
       "socialLinks": {
         "email": "abhi@workpop.com",
-        "facebook": " ",
+        "facebook": "",
         "twitter": "https://twitter.com/abhiaiyer",
         "github": "https://github.com/abhiaiyer91",
-        "linkedIn": " ",
+        "linkedIn": "",
         "medium": "https://medium.com/@abhiaiyer",
-        "website": " ",
-        "blog": " "
+        "website": "",
+        "blog": ""
       },
       "priorPresos": [{
         "title": "Host of Crater Podcast",
-        "source": " "
+        "source": ""
       }, {
         "title": "Meteor Interviews - UI at scale",
-        "source": " "
+        "source": ""
       }, {
         "title": "Meteor Club Unconference",
-        "source": " "
+        "source": ""
       }],
       "totalTalks": 1,
       "participation": [{
         "type": "Technical Discussion",
-        "lineup": " ",
-        "event": " ",
+        "lineup": "",
+        "event": "",
         "title": "React + Apollo + You",
         "description": "When your product scales your data scales with it. How do you effectively query different data sources to build amazing product experiences? Enter GraphQL. With the Apollo Stack, take your capabilities to the next level by defining a unified api for your clients: web and mobile.",
-        "shared": " ",
-        "alternate": " "
+        "shared": "",
+        "alternate": ""
       }]
     },
 
     {
 
       "name": "Edgar J. Muentes",
-      "headshot": " ",
+      "headshot": "",
       "organization": "Priceline",
-      "position": " ",
+      "position": "",
       "bio": {
-        "short": " ",
-        "long": " "
+        "short": "",
+        "long": ""
       },
 
-      "presoSource": " ",
+      "presoSource": "",
       "socialLinks": {
-        "email": " ",
-        "facebook": " ",
-        "twitter": " ",
-        "github": " ",
-        "linkedIn": " ",
-        "medium": " ",
-        "website": " ",
-        "blog": " "
+        "email": "",
+        "facebook": "",
+        "twitter": "",
+        "github": "",
+        "linkedIn": "",
+        "medium": "",
+        "website": "",
+        "blog": ""
       },
       "priorPresos": [{
-        "title": " ",
-        "source": " "
+        "title": "",
+        "source": ""
       }],
       "totalTalks": 1,
       "participation": [{
         "type": "Technical Discussion",
-        "lineup": " ",
-        "event": " ",
-        "title": " ",
-        "description": " ",
-        "shared": " ",
-        "alternate": " "
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
       }]
     },
 
     {
 
       "name": "Kelly Copely",
-      "headshot": " ",
-      "organization": " ",
-      "position": " ",
+      "headshot": "",
+      "organization": "",
+      "position": "",
       "bio": {
-        "short": " ",
-        "long": " "
+        "short": "",
+        "long": ""
       },
 
-      "presoSource": " ",
+      "presoSource": "",
       "socialLinks": {
-        "email": " ",
-        "facebook": " ",
-        "twitter": " ",
-        "github": " ",
-        "linkedIn": " ",
-        "medium": " ",
-        "website": " ",
-        "blog": " "
+        "email": "",
+        "facebook": "",
+        "twitter": "",
+        "github": "",
+        "linkedIn": "",
+        "medium": "",
+        "website": "",
+        "blog": ""
       },
       "priorPresos": [{
-        "title": " ",
-        "source": " "
+        "title": "",
+        "source": ""
       }],
-      "totalTalks": " ",
+      "totalTalks": "",
       "participation": [{
-        "type": " ",
-        "lineup": " ",
-        "event": " ",
-        "title": " ",
-        "description": " ",
-        "shared": " ",
-        "alternate": " "
+        "type": "",
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
       }]
     }
   ]
