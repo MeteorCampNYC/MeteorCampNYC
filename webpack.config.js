@@ -8,7 +8,7 @@ var config = {
   entry: APP_DIR + '/index.jsx',
   output: {
     path: BUILD_DIR,
-    filename: 'bundle.js'
+    filename: 'bundle.min.js'
   },
   module : {
     loaders : [
@@ -17,9 +17,14 @@ var config = {
         include : APP_DIR,
         loader : 'babel'
       },
-      { test: /\.json$/, loader: "json-loader" }    
+      { test: /\.json$/, loader: "json-loader" }
     ]
-  }
+  },
+  plugins: [
+    new webpack.optimize.UglifyJsPlugin({
+      compress: { warnings: false }
+    })
+  ]
 };
 
 module.exports = config;
