@@ -311,7 +311,7 @@
 
     {
 
-      "confirmed": true, "name": "Alex Bachuk",
+      "confirmed": false, "name": "Alex Bachuk",
       "headshot": "img/bachuk.jpg",
       "organization": "Classmate.io",
       "position": "",
@@ -349,7 +349,7 @@
 
     {
 
-      "confirmed": true, "name": "John Masse",
+      "confirmed": false, "name": "John Masse",
       "headshot": "img/masse.png",
       "organization": "Classmate.io",
       "position": "",
@@ -693,12 +693,12 @@
 
     {
 
-      "confirmed": false, "name": "Ben Newman",
+      "confirmed": true, "name": "Ben Newman",
       "headshot": "img/ben.jpg",
       "organization": "Meteor Development Group",
       "position": "",
       "bio": {
-        "short": "",
+        "short": "Ben helps brings simple, backwards-compatible standards support to Meteor and represents MDG in the TC39 JavaScript standards process.",
         "long": ""
       },
 
@@ -706,9 +706,9 @@
       "socialLinks": {
         "email": "",
         "facebook": "",
-        "twitter": "",
-        "github": "",
-        "linkedin": "",
+        "twitter": "https://twitter.com/benjamn",
+        "github": "https://github.com/benjamn",
+        "linkedin": "https://www.linkedin.com/in/ben-newman-09241b2",
         "medium": "",
         "website": "",
         "blog": ""
@@ -736,7 +736,7 @@
       "organization": "Workpop! Inc.",
       "position": "",
       "bio": {
-        "short": "",
+        "short": "Abhi Aiyer is a software developer at Workpop who specializes in JavaScript and Meteor.",
         "long": ""
       },
 
