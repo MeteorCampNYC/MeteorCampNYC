@@ -227,6 +227,44 @@
 
     {
 
+      "confirmed": true, "name": "Ben Newman",
+      "headshot": "img/ben.jpg",
+      "organization": "Meteor Development Group",
+      "position": "",
+      "bio": {
+        "short": "Ben helps brings simple, backwards-compatible standards support to Meteor and represents MDG in the TC39 JavaScript standards process.",
+        "long": ""
+      },
+
+      "presoSource": "",
+      "socialLinks": {
+        "email": "",
+        "facebook": "",
+        "twitter": "https://twitter.com/benjamn",
+        "github": "https://github.com/benjamn",
+        "linkedin": "https://www.linkedin.com/in/ben-newman-09241b2",
+        "medium": "",
+        "website": "",
+        "blog": ""
+      },
+      "priorPresos": [{
+        "title": "",
+        "source": ""
+      }],
+      "totalTalks": 1,
+      "participation": [{
+        "type": "Panel Discussion",
+        "lineup": "",
+        "event": "",
+        "title": "How Do Changes in the Meteor Experience After Version 1.3 Affect It’s Adoption and Use?",
+        "description": "",
+        "shared": "",
+        "alternate": ""
+      }]
+    },
+
+    {
+
       "confirmed": true, "name": "Nick Alan Brown",
       "headshot": "img/alanbrown.jpg",
       "organization": "Huge",
@@ -685,44 +723,6 @@
         "lineup": "",
         "event": "",
         "title": "",
-        "description": "",
-        "shared": "",
-        "alternate": ""
-      }]
-    },
-
-    {
-
-      "confirmed": true, "name": "Ben Newman",
-      "headshot": "img/ben.jpg",
-      "organization": "Meteor Development Group",
-      "position": "",
-      "bio": {
-        "short": "Ben helps brings simple, backwards-compatible standards support to Meteor and represents MDG in the TC39 JavaScript standards process.",
-        "long": ""
-      },
-
-      "presoSource": "",
-      "socialLinks": {
-        "email": "",
-        "facebook": "",
-        "twitter": "https://twitter.com/benjamn",
-        "github": "https://github.com/benjamn",
-        "linkedin": "https://www.linkedin.com/in/ben-newman-09241b2",
-        "medium": "",
-        "website": "",
-        "blog": ""
-      },
-      "priorPresos": [{
-        "title": "",
-        "source": ""
-      }],
-      "totalTalks": 1,
-      "participation": [{
-        "type": "Panel Discussion",
-        "lineup": "",
-        "event": "",
-        "title": "How Do Changes in the Meteor Experience After Version 1.3 Affect It’s Adoption and Use?",
         "description": "",
         "shared": "",
         "alternate": ""
