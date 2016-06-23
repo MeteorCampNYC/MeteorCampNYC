@@ -28,59 +28,6 @@
 
   "meteorcamp": [{
 
-      "confirmed": true, "name": "Anders Ramsay",
-      "headshot": "img/ramsay.jpg",
-      "organization": "codechron.com",
-      "position": "",
-      "bio": {
-        "short": "Anders Ramsay speaks about and teaches Meteor frequently. Follow him on Twitter at @codechron or @andersramsay",
-        "long": "Anders Ramsay is a UX designer; developer and Agile Coach; and the organizer of the Agile Experience Design Meetup; who regularly conducts workshops on coding, UX, and Agile practices. Anders blogs about coding and about UX and Agile. Follow him on Twitter at @codechron or @andersramsay."
-      },
-
-      "presoSource": "",
-      "socialLinks": {
-        "email": "",
-        "facebook": "",
-        "twitter": "https://twitter.com/codechron",
-        "github": "https://github.com/andersr",
-        "linkedin": "https://www.linkedin.com/in/andersramsay",
-        "medium": "",
-        "website": "http://andersramsay.com/",
-        "blog": "http://codechron.org/"
-      },
-      "priorPresos": [{
-        "title": "Getting Started with Meteor 1.3",
-        "source": "http://www.meetup.com/Meteor-NY/events/228981551/"
-      }, {
-        "title": "Deploying a Meteor App to Galaxy",
-        "source": "https://www.youtube.com/watch?v=NK5F34bjhNM&feature=youtu.be"
-      }, {
-        "title": "Tips for Building Your First Meteor App",
-        "source": "https://www.youtube.com/watch?v=BPotMxLAhl8"
-      }],
-      "totalTalks": 2,
-      "participation": [{
-        "type": "Tutorial Workshop",
-        "lineup": "",
-        "event": "",
-        "title": "Building a Web App with Meteor, React, and FlowRouter",
-        "description": "In this tutorial, we'll walk through some key parts of building a Meteor app with a React view layer.  We'll show how to effectively integrate FlowRouter with React components.  In particular, we'll discuss how to pass props from a top-level React component 'through' FlowRouter down to route-specific components.  We'll also discuss how to use the container model in Meteor to manage component data, as well as how to create components with optional features that we can then 'turn on' for a certain context. And finally, we'll talk about why having shared 'global' components is a React anti-pattern and what is a better alternative.",
-        "shared": "False",
-        "alternate": "False"
-      }, {
-        "type": "Panel Discussion",
-        "lineup": "",
-        "event": "",
-        "title": "",
-        "description": "",
-        "shared": "",
-        "alternate": ""
-      }]
-
-    },
-
-    {
-
       "confirmed": true, "name": "Arunoda Susiripala",
       "headshot": "img/susiripala.jpg",
       "organization": "Kadira",
@@ -131,6 +78,59 @@
         "shared": "",
         "alternate": ""
       }]
+    },
+
+		{
+
+      "confirmed": true, "name": "Anders Ramsay",
+      "headshot": "img/ramsay.jpg",
+      "organization": "codechron.com",
+      "position": "",
+      "bio": {
+        "short": "Anders Ramsay speaks about and teaches Meteor frequently. Follow him on Twitter at @codechron or @andersramsay",
+        "long": "Anders Ramsay is a UX designer; developer and Agile Coach; and the organizer of the Agile Experience Design Meetup; who regularly conducts workshops on coding, UX, and Agile practices. Anders blogs about coding and about UX and Agile. Follow him on Twitter at @codechron or @andersramsay."
+      },
+
+      "presoSource": "",
+      "socialLinks": {
+        "email": "",
+        "facebook": "",
+        "twitter": "https://twitter.com/codechron",
+        "github": "https://github.com/andersr",
+        "linkedin": "https://www.linkedin.com/in/andersramsay",
+        "medium": "",
+        "website": "http://andersramsay.com/",
+        "blog": "http://codechron.org/"
+      },
+      "priorPresos": [{
+        "title": "Getting Started with Meteor 1.3",
+        "source": "http://www.meetup.com/Meteor-NY/events/228981551/"
+      }, {
+        "title": "Deploying a Meteor App to Galaxy",
+        "source": "https://www.youtube.com/watch?v=NK5F34bjhNM&feature=youtu.be"
+      }, {
+        "title": "Tips for Building Your First Meteor App",
+        "source": "https://www.youtube.com/watch?v=BPotMxLAhl8"
+      }],
+      "totalTalks": 2,
+      "participation": [{
+        "type": "Tutorial Workshop",
+        "lineup": "",
+        "event": "",
+        "title": "Building a Web App with Meteor, React, and FlowRouter",
+        "description": "In this tutorial, we'll walk through some key parts of building a Meteor app with a React view layer.  We'll show how to effectively integrate FlowRouter with React components.  In particular, we'll discuss how to pass props from a top-level React component 'through' FlowRouter down to route-specific components.  We'll also discuss how to use the container model in Meteor to manage component data, as well as how to create components with optional features that we can then 'turn on' for a certain context. And finally, we'll talk about why having shared 'global' components is a React anti-pattern and what is a better alternative.",
+        "shared": "False",
+        "alternate": "False"
+      }, {
+        "type": "Panel Discussion",
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
+      }]
+
     },
 
     {
