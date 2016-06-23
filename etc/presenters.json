@@ -28,7 +28,7 @@
 
   "meteorcamp": [{
 
-      "name": "Anders Ramsay",
+      "confirmed": true, "name": "Anders Ramsay",
       "headshot": "img/ramsay.jpg",
       "organization": "codechron.com",
       "position": "",
@@ -81,7 +81,7 @@
 
     {
 
-      "name": "Arunoda Susiripala",
+      "confirmed": true, "name": "Arunoda Susiripala",
       "headshot": "img/susiripala.jpg",
       "organization": "Kadira",
       "position": "",
@@ -135,7 +135,7 @@
 
     {
 
-      "name": "Abigail Watson",
+      "confirmed": true, "name": "Abigail Watson",
       "headshot": "img/watson.jpg",
       "organization": "Symptomatic.io",
       "position": "",
@@ -148,9 +148,9 @@
       "socialLinks": {
         "email": "awatson1978@gmail.com",
         "facebook": "",
-        "twitter": "",
-        "github": "",
-        "linkedin": "",
+        "twitter": "https://twitter.com/awatson1978",
+        "github": "https://github.com/awatson1978",
+        "linkedin": "https://www.linkedin.com/in/abigailwatson",
         "medium": "",
         "website": "",
         "blog": ""
@@ -181,7 +181,7 @@
 
     {
 
-      "name": "Tom Goldenberg",
+      "confirmed": true, "name": "Tom Goldenberg",
       "headshot": "img/goldenberg.png",
       "organization": "Agolo",
       "position": "",
@@ -196,7 +196,7 @@
         "facebook": "",
         "twitter": "https://twitter.com/tomgoldenberg",
         "github": "https://github.com/tgoldenberg",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/tom-goldenberg-67054b88",
         "medium": "https://medium.com/@tomgoldenberg",
         "website": "",
         "blog": ""
@@ -227,7 +227,7 @@
 
     {
 
-      "name": "Nick Alan Brown",
+      "confirmed": true, "name": "Nick Alan Brown",
       "headshot": "img/alanbrown.jpg",
       "organization": "Huge",
       "position": "",
@@ -238,11 +238,11 @@
 
       "presoSource": "",
       "socialLinks": {
-        "email": "",
+        "email": "nicholasalanbrown@gmail.com",
         "facebook": "",
-        "twitter": "",
+        "twitter": "https://twitter.com/nicholasalanb",
         "github": "",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/nicholasalanbrown",
         "medium": "",
         "website": "",
         "blog": ""
@@ -273,7 +273,7 @@
 
     {
 
-      "name": "Curtis Larson",
+      "confirmed": true, "name": "Curtis Larson",
       "headshot": "img/larson.jpg",
       "organization": "Quackware",
       "position": "",
@@ -284,11 +284,11 @@
 
       "presoSource": "",
       "socialLinks": {
-        "email": "",
+        "email": "curtis@curtismlarson.com",
         "facebook": "",
-        "twitter": "",
-        "github": "",
-        "linkedin": "",
+        "twitter": "https://twitter.com/quackware",
+        "github": "https://www.github.com/quackware",
+        "linkedin": "https://www.linkedin.com/profile/view?id=133830767",
         "medium": "",
         "website": "",
         "blog": ""
@@ -311,7 +311,7 @@
 
     {
 
-      "name": "Alex Bachuk",
+      "confirmed": true, "name": "Alex Bachuk",
       "headshot": "img/bachuk.jpg",
       "organization": "Classmate.io",
       "position": "",
@@ -322,11 +322,11 @@
 
       "presoSource": "",
       "socialLinks": {
-        "email": "",
+        "email": "alex@bachuk.com",
         "facebook": "",
-        "twitter": "",
-        "github": "",
-        "linkedin": "",
+        "twitter": "https://twitter.com/netxm",
+        "github": "https://github.com/abachuk",
+        "linkedin": "https://www.linkedin.com/in/alex-bachuk-00455910",
         "medium": "",
         "website": "",
         "blog": ""
@@ -349,7 +349,7 @@
 
     {
 
-      "name": "John Masse",
+      "confirmed": true, "name": "John Masse",
       "headshot": "img/masse.png",
       "organization": "Classmate.io",
       "position": "",
@@ -360,11 +360,11 @@
 
       "presoSource": "",
       "socialLinks": {
-        "email": "",
+        "email": "john@jjmasse.com",
         "facebook": "",
-        "twitter": "",
-        "github": "",
-        "linkedin": "",
+        "twitter": "https://twitter.com/jjmasse",
+        "github": "https://github.com/jjmasse",
+        "linkedin": "https://www.linkedin.com/in/johnmasse",
         "medium": "",
         "website": "",
         "blog": ""
@@ -387,7 +387,7 @@
 
     {
 
-      "name": "Justin Krup",
+      "confirmed": true, "name": "Justin Krup",
       "headshot": "img/krup.jpg",
       "organization": "Bokuga",
       "position": "",
@@ -398,11 +398,11 @@
 
       "presoSource": "",
       "socialLinks": {
-        "email": "",
+        "email": "justin@bokuga.com",
         "facebook": "",
-        "twitter": "",
-        "github": "",
-        "linkedin": "",
+        "twitter": "https://twitter.com/mazlix",
+        "github": "https://github.com/mazlix",
+        "linkedin": "https://www.linkedin.com/in/justinkrup",
         "medium": "",
         "website": "",
         "blog": ""
@@ -425,7 +425,7 @@
 
     {
 
-      "name": "Michael Solati",
+      "confirmed": true, "name": "Michael Solati",
       "headshot": "img/solati.jpg",
       "organization": "Checkmate Creations",
       "position": "",
@@ -436,11 +436,11 @@
 
       "presoSource": "",
       "socialLinks": {
-        "email": "",
+        "email": "mkslt04@gmail.com",
         "facebook": "",
-        "twitter": "",
-        "github": "",
-        "linkedin": "",
+        "twitter": "https://twitter.com/mkslt04",
+        "github": "https://github.com/MichaelSolati",
+        "linkedin": "https://www.linkedin.com/in/michaelsolati",
         "medium": "",
         "website": "",
         "blog": ""
@@ -463,7 +463,7 @@
 
     {
 
-      "name": "Joshua Owens",
+      "confirmed": true, "name": "Joshua Owens",
       "headshot": "img/owens.jpeg",
       "organization": "4BeanSoup",
       "position": "",
@@ -474,13 +474,13 @@
 
       "presoSource": "",
       "socialLinks": {
-        "email": "",
+        "email": "joshua.owens@gmail.com",
         "facebook": "",
-        "twitter": "",
-        "github": "",
-        "linkedin": "",
+        "twitter": "https://twitter.com/joshowens",
+        "github": "https://github.com/queso",
+        "linkedin": "https://www.linkedin.com/in/joshuaowens",
         "medium": "",
-        "website": "",
+        "website": "http://joshowens.me/",
         "blog": ""
       },
       "priorPresos": [{
@@ -509,7 +509,7 @@
 
     {
 
-      "name": "Loren Sands-Ramshaw",
+      "confirmed": true, "name": "Loren Sands-Ramshaw",
       "headshot": "img/sands-ramshaw.jpg",
       "organization": "Parlay",
       "position": "",
@@ -520,12 +520,12 @@
 
       "presoSource": "",
       "socialLinks": {
-        "email": "",
+        "email": "lorensr@gmail.com",
         "facebook": "",
-        "twitter": "",
-        "github": "",
-        "linkedin": "",
-        "medium": "",
+        "twitter": "https://twitter.com/lorendsr",
+        "github": "https://github.com/lorensr",
+        "linkedin": "https://www.linkedin.com/in/loren-sands-ramshaw-826256b",
+        "medium": "https://medium.com/@lorendsr",
         "website": "",
         "blog": ""
       },
@@ -555,7 +555,7 @@
 
     {
 
-      "name": "Chaz Mee",
+      "confirmed": true, "name": "Chaz Mee",
       "headshot": "img/mee.png",
       "organization": "Placelist",
       "position": "",
@@ -566,13 +566,13 @@
 
       "presoSource": "",
       "socialLinks": {
-        "email": "",
+        "email": "chaz.mee@gmail.com",
         "facebook": "",
-        "twitter": "",
-        "github": "",
-        "linkedin": "",
+        "twitter": "https://twitter.com/cmeethree",
+        "github": "https://github.com/cmeethree",
+        "linkedin": "https://www.linkedin.com/in/chazmee",
         "medium": "",
-        "website": "",
+        "website": "http://www.chazmee.com/",
         "blog": ""
       },
       "priorPresos": [{
@@ -593,7 +593,7 @@
 
     {
 
-      "name": "Matt Czerwonka",
+      "confirmed": true, "name": "Matt Czerwonka",
       "headshot": "img/czerwonka.jpg",
       "organization": "Innoscale",
       "position": "",
@@ -604,11 +604,11 @@
 
       "presoSource": "",
       "socialLinks": {
-        "email": "",
+        "email": "czerwonka@innoscale.de",
         "facebook": "",
         "twitter": "",
         "github": "",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/mczerwonka",
         "medium": "",
         "website": "",
         "blog": ""
@@ -639,7 +639,7 @@
 
     {
 
-      "name": "Robert Dickert",
+      "confirmed": true, "name": "Robert Dickert",
       "headshot": "img/dickert.jpeg",
       "organization": "OK GROW!",
       "position": "",
@@ -652,11 +652,11 @@
       "socialLinks": {
         "email": "",
         "facebook": "",
-        "twitter": "",
-        "github": "",
-        "linkedin": "",
+        "twitter": "https://twitter.com/rdickert",
+        "github": "https://github.com/rdickert",
+        "linkedin": "https://www.linkedin.com/in/robert-dickert-42a2a713",
         "medium": "",
-        "website": "",
+        "website": "http://robertdickert.com/",
         "blog": ""
       },
       "priorPresos": [{
@@ -693,7 +693,7 @@
 
     {
 
-      "name": "Ben Newman",
+      "confirmed": false, "name": "Ben Newman",
       "headshot": "img/ben.jpg",
       "organization": "Meteor Development Group",
       "position": "",
@@ -731,7 +731,7 @@
 
     {
 
-      "name": "Abhi Aiyer",
+      "confirmed": true, "name": "Abhi Aiyer",
       "headshot": "img/aiyer.jpg",
       "organization": "Workpop! Inc.",
       "position": "",
@@ -775,7 +775,51 @@
 
     {
 
-      "name": "Edgar J. Muentes",
+      "confirmed": true, "name": "Tom Nasser",
+      "headshot": "img/nassr.jpg",
+      "organization": "Kricket.co",
+      "position": "",
+      "bio": {
+        "short": "Tom Nassr is a serial entreprenuer and founder of Kricket.co and Checkmate Creations",
+        "long": ""
+      },
+
+      "presoSource": "",
+      "socialLinks": {
+        "email": "tomnassr@gmail.com",
+        "facebook": "",
+        "twitter": "https://twitter.com/tomnassr",
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/tomnassr",
+        "medium": "",
+        "website": "",
+        "blog": ""
+      },
+      "priorPresos": [{
+        "title": "Host of Crater Podcast",
+        "source": ""
+      }, {
+        "title": "Meteor Interviews - UI at scale",
+        "source": ""
+      }, {
+        "title": "Meteor Club Unconference",
+        "source": ""
+      }],
+      "totalTalks": 1,
+      "participation": [{
+        "type": "Technical Discussion",
+        "lineup": "",
+        "event": "",
+        "title": "React + Apollo + You",
+        "description": "When your product scales your data scales with it. How do you effectively query different data sources to build amazing product experiences? Enter GraphQL. With the Apollo Stack, take your capabilities to the next level by defining a unified api for your clients: web and mobile.",
+        "shared": "",
+        "alternate": ""
+      }]
+    },
+
+    {
+
+      "confirmed": false, "name": "Edgar J. Muentes",
       "headshot": "",
       "organization": "Priceline",
       "position": "",
@@ -813,7 +857,7 @@
 
     {
 
-      "name": "Kelly Copely",
+      "confirmed": false, "name": "Kelly Copely",
       "headshot": "",
       "organization": "",
       "position": "",
