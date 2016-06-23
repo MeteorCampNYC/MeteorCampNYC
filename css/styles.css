@@ -229,3 +229,8 @@ a:after {
 .partner-package {
 	margin-bottom: 30px;
 }
+
+#logistics-app {
+	padding-top: 20px;
+	color: #333;
+}
