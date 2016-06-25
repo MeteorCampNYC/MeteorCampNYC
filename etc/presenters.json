@@ -349,7 +349,7 @@
 
     {
 
-      "confirmed": false, "name": "Alex Bachuk",
+      "confirmed": true, "name": "Alex Bachuk",
       "headshot": "img/bachuk.jpg",
       "organization": "Classmate.io",
       "position": "",
@@ -373,7 +373,7 @@
         "title": "",
         "source": ""
       }],
-      "totalTalks": 2,
+      "totalTalks": 1,
       "participation": [{
         "type": "",
         "lineup": "",
@@ -387,7 +387,7 @@
 
     {
 
-      "confirmed": false, "name": "John Masse",
+      "confirmed": true, "name": "John Masse",
       "headshot": "img/masse.png",
       "organization": "Classmate.io",
       "position": "",
@@ -411,7 +411,7 @@
         "title": "",
         "source": ""
       }],
-      "totalTalks": 2,
+      "totalTalks": 1,
       "participation": [{
         "type": "",
         "lineup": "",
