@@ -265,7 +265,7 @@
 
     {
 
-      "confirmed": true, "name": "Nick Alan Brown",
+      "confirmed": false, "name": "Nick Alan Brown",
       "headshot": "img/alanbrown.jpg",
       "organization": "Huge",
       "position": "",
