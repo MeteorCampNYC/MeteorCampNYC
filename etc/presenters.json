@@ -187,7 +187,7 @@
       "position": "",
       "bio": {
         "short": "Tom is a web and mobile engineer for the text summarization platform Agolo",
-        "long": ""
+        "long": "Tom Goldenberg is currently a web and mobile engineer for Agolo, a summarization platform working with government and private agencies. He has worked for international NGO's for over 10 years, including serving during the South Asian Tsunami rehabilitation in 2006. Last year he was chosen as a UN representative for the non-profit ICPAR (International Committee for Peace and Reconciliation)."
       },
 
       "presoSource": "",
@@ -316,7 +316,7 @@
       "organization": "Quackware",
       "position": "",
       "bio": {
-        "short": "",
+        "short": "Justin Krup is a full-stack web and mobile developer using Meteor since version 1.0.",
         "long": ""
       },
 
@@ -354,7 +354,7 @@
       "organization": "Classmate.io",
       "position": "",
       "bio": {
-        "short": "Alex is a front-end developer who specializes in full stack JavaScript development and co-founder of ClassMate.io.",
+        "short": "",
         "long": ""
       },
 
@@ -366,7 +366,7 @@
         "github": "https://github.com/abachuk",
         "linkedin": "https://www.linkedin.com/in/alex-bachuk-00455910",
         "medium": "",
-        "website": "http://alexbachuk.com/",
+        "website": "",
         "blog": ""
       },
       "priorPresos": [{
@@ -392,19 +392,19 @@
       "organization": "Classmate.io",
       "position": "",
       "bio": {
-        "short": "John is a full stack javascript developer, UX designer, educator and co-founder of ClassMate.io.",
+        "short": "",
         "long": ""
       },
 
       "presoSource": "",
       "socialLinks": {
         "email": "john@jjmasse.com",
-        "facebook": "https://www.facebook.com/john.masse1",
+        "facebook": "",
         "twitter": "https://twitter.com/jjmasse",
         "github": "https://github.com/jjmasse",
         "linkedin": "https://www.linkedin.com/in/johnmasse",
         "medium": "",
-        "website": "https://www.jjmasse.com/",
+        "website": "",
         "blog": ""
       },
       "priorPresos": [{
@@ -552,7 +552,7 @@
       "organization": "Parlay",
       "position": "",
       "bio": {
-        "short": "Loren is cofounder of Parlay, a Meteor Cordova app for social betting. He also freelances and is one of Meteor core's community maintainers.",
+        "short": "",
         "long": ""
       },
 
@@ -682,7 +682,7 @@
       "organization": "OK GROW!",
       "position": "",
       "bio": {
-        "short": "Robert is a developer at OK GROW! He founded Meteor Boulder and helped start the Velocity testing framework. He has been part of the Meteor community since 2012.",
+        "short": "",
         "long": ""
       },
 
@@ -819,8 +819,8 @@
 
     {
 
-      "confirmed": false, "name": "Edgar J. Muentes",
-      "headshot": "",
+      "confirmed": true, "name": "Edgar J. Muentes",
+      "headshot": "img/muentes.jpg",
       "organization": "Priceline",
       "position": "",
       "bio": {
@@ -832,9 +832,9 @@
       "socialLinks": {
         "email": "",
         "facebook": "",
-        "twitter": "",
-        "github": "",
-        "linkedin": "",
+        "twitter": "https://twitter.com/edgarmuentes",
+        "github": "https://github.com/Emuentes",
+        "linkedin": "https://www.linkedin.com/in/edgarmuentes",
         "medium": "",
         "website": "",
         "blog": ""
@@ -873,6 +873,80 @@
         "twitter": "",
         "github": "",
         "linkedin": "",
+        "medium": "",
+        "website": "",
+        "blog": ""
+      },
+      "priorPresos": [{
+        "title": "",
+        "source": ""
+      }],
+      "totalTalks": "",
+      "participation": [{
+        "type": "",
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
+      }]
+    },
+    {
+
+      "confirmed": false, "name": "Peter Lee",
+      "headshot": "",
+      "organization": "",
+      "position": "",
+      "bio": {
+        "short": "",
+        "long": ""
+      },
+
+      "presoSource": "",
+      "socialLinks": {
+        "email": "",
+        "facebook": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "medium": "",
+        "website": "",
+        "blog": ""
+      },
+      "priorPresos": [{
+        "title": "",
+        "source": ""
+      }],
+      "totalTalks": "",
+      "participation": [{
+        "type": "",
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
+      }]
+    },
+    {
+
+      "confirmed": true, "name": "Rob Bisson",
+      "headshot": "img/bisson.jpeg",
+      "organization": "",
+      "position": "",
+      "bio": {
+        "short": "",
+        "long": ""
+      },
+
+      "presoSource": "",
+      "socialLinks": {
+        "email": "",
+        "facebook": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/robbisson ",
         "medium": "",
         "website": "",
         "blog": ""
