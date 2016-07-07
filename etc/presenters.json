@@ -316,7 +316,7 @@
       "organization": "Quackware",
       "position": "",
       "bio": {
-        "short": "Justin Krup is a full-stack web and mobile developer using Meteor since version 1.0.",
+        "short": "",
         "long": ""
       },
 
@@ -354,7 +354,7 @@
       "organization": "Classmate.io",
       "position": "",
       "bio": {
-        "short": "",
+        "short": "Alex is a front-end developer who specializes in full stack JavaScript development and co-founder of ClassMate.io.",
         "long": ""
       },
 
@@ -366,7 +366,7 @@
         "github": "https://github.com/abachuk",
         "linkedin": "https://www.linkedin.com/in/alex-bachuk-00455910",
         "medium": "",
-        "website": "",
+        "website": "http://alexbachuk.com/",
         "blog": ""
       },
       "priorPresos": [{
@@ -392,19 +392,19 @@
       "organization": "Classmate.io",
       "position": "",
       "bio": {
-        "short": "",
+        "short": "John is a full stack javascript developer, UX designer, educator and co-founder of ClassMate.io.",
         "long": ""
       },
 
       "presoSource": "",
       "socialLinks": {
         "email": "john@jjmasse.com",
-        "facebook": "",
+        "facebook": "https://www.facebook.com/john.masse1",
         "twitter": "https://twitter.com/jjmasse",
         "github": "https://github.com/jjmasse",
         "linkedin": "https://www.linkedin.com/in/johnmasse",
         "medium": "",
-        "website": "",
+        "website": "https://www.jjmasse.com/",
         "blog": ""
       },
       "priorPresos": [{
@@ -552,7 +552,7 @@
       "organization": "Parlay",
       "position": "",
       "bio": {
-        "short": "",
+        "short": "Loren is cofounder of Parlay, a Meteor Cordova app for social betting. He also freelances and is one of Meteor core's community maintainers.",
         "long": ""
       },
 
@@ -682,7 +682,7 @@
       "organization": "OK GROW!",
       "position": "",
       "bio": {
-        "short": "",
+        "short": "Robert is a developer at OK GROW! He founded Meteor Boulder and helped start the Velocity testing framework. He has been part of the Meteor community since 2012.",
         "long": ""
       },
 
