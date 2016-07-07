@@ -187,7 +187,7 @@
       "position": "",
       "bio": {
         "short": "Tom is a web and mobile engineer for the text summarization platform Agolo",
-        "long": ""
+        "long": "Tom Goldenberg is currently a web and mobile engineer for Agolo, a summarization platform working with government and private agencies. He has worked for international NGO's for over 10 years, including serving during the South Asian Tsunami rehabilitation in 2006. Last year he was chosen as a UN representative for the non-profit ICPAR (International Committee for Peace and Reconciliation)."
       },
 
       "presoSource": "",
@@ -819,8 +819,8 @@
 
     {
 
-      "confirmed": false, "name": "Edgar J. Muentes",
-      "headshot": "",
+      "confirmed": true, "name": "Edgar J. Muentes",
+      "headshot": "img/muentes.jpg",
       "organization": "Priceline",
       "position": "",
       "bio": {
@@ -832,9 +832,9 @@
       "socialLinks": {
         "email": "",
         "facebook": "",
-        "twitter": "",
-        "github": "",
-        "linkedin": "",
+        "twitter": "https://twitter.com/edgarmuentes",
+        "github": "https://github.com/Emuentes",
+        "linkedin": "https://www.linkedin.com/in/edgarmuentes",
         "medium": "",
         "website": "",
         "blog": ""
@@ -873,6 +873,80 @@
         "twitter": "",
         "github": "",
         "linkedin": "",
+        "medium": "",
+        "website": "",
+        "blog": ""
+      },
+      "priorPresos": [{
+        "title": "",
+        "source": ""
+      }],
+      "totalTalks": "",
+      "participation": [{
+        "type": "",
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
+      }]
+    },
+    {
+
+      "confirmed": false, "name": "Peter Lee",
+      "headshot": "",
+      "organization": "",
+      "position": "",
+      "bio": {
+        "short": "",
+        "long": ""
+      },
+
+      "presoSource": "",
+      "socialLinks": {
+        "email": "",
+        "facebook": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "medium": "",
+        "website": "",
+        "blog": ""
+      },
+      "priorPresos": [{
+        "title": "",
+        "source": ""
+      }],
+      "totalTalks": "",
+      "participation": [{
+        "type": "",
+        "lineup": "",
+        "event": "",
+        "title": "",
+        "description": "",
+        "shared": "",
+        "alternate": ""
+      }]
+    },
+    {
+
+      "confirmed": true, "name": "Rob Bisson",
+      "headshot": "img/bisson.jpeg",
+      "organization": "",
+      "position": "",
+      "bio": {
+        "short": "",
+        "long": ""
+      },
+
+      "presoSource": "",
+      "socialLinks": {
+        "email": "",
+        "facebook": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/robbisson ",
         "medium": "",
         "website": "",
         "blog": ""
