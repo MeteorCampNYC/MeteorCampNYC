@@ -4,6 +4,22 @@ function getTimeRemaining(endtime) {
   var minutes = Math.floor((t / 1000 / 60) % 60);
   var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
   var days = Math.floor(t / (1000 * 60 * 60 * 24));
+
+  
+  // Make sure display does not show negative time
+  if (seconds < 0) 
+    seconds = 0;
+
+  if (minutes < 0)
+    minutes = 0;
+
+  if (hours < 0)
+    hours = 0;
+
+  if (days < 0)
+    days = 0;
+
+
   return {
     'total': t,
     'days': days,
@@ -38,5 +54,5 @@ function initializeClock(id, endtime) {
 }
 
 //var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
-var deadline = 'July 8 2016';
+var deadline = 'July 7 2016 15:00:00';
 initializeClock('clockdiv', deadline);
