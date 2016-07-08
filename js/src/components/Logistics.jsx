@@ -18,7 +18,41 @@ class Logistics extends React.Component {
           <p>Meteor Camp is being held this year in midtown Manhattan in New York City on the extraterritorial world headquarters of the United Nations at 405 East 42nd Street. We’re an independent camp running as part of the larger two-week <a target="_blank" href="http://opencamps.org/">Open Camps</a> (July 8 — 17) offering. Check them out if you’re interested in learning more.</p>
           <p>New York City is served by three major international airports (Newark, JFK, and LaGuardia airports), public rail and roadway transit systems, and private car services. If you need more information about getting around, please let us know and we’ll endeavor to help out.</p>
         </Panel>
-        <Panel header="Staying in NYC for Meteor Camp NYC 2016" eventKey="2">
+        <Panel header="Arriving at the United Nations" eventKey="2">
+          <p>The United Nations Headquarters is located in the heart of New York City on 1st Avenue between 42nd and 48th Street.</p>
+          <p>Attendees can gain access to the UN site at the main entrance between East 45th and 46th streets, located at 1st Avenue, New York, NY 10017.</p>
+          <p><strong>Arrive Early</strong>: Please arrive at least 45-60 minutes in advance to ensure you can make it to your desired sessions in time.</p>
+          <p><strong>Bring ID</strong>: You must register in advance and a state/gov't issues photo identification is required to obtain your pass to enter the UN. While you do not need to print your ticket, we encourage you to do so. Please make sure your name on the ticket matches the name on your photo identification.</p>
+          <p><strong>Obtain UN Pass</strong>: When you first arrive at the UN you must obtain a UN security pass which will allow you to enter the UN to attend NYC Camp. This badge will allow you to enter the UN throughout the day, there will be a separate pass issued for each of Training Day (Fri), Sessions Days (Sat/Sun), and Summits Day (Mon). All attendees must have this badge visible at all times during the event.</p>
+          <p>Please review below for items allowed or prohibited by U.N Security.</p>
+          <p>Once you have picked up your name badge, you will proceed to NYC Camp?s check-in area in order to obtain your conference program and lanyard.</p>
+          <p>Finally, find your way to the appropriate room by either asking a volunteer or by following the wayfinding signs and venue map.</p>
+          <p><i>The following items are <strong>allowed</strong>:</i></p>
+          <ul>
+            <li>battery-operated electronic devices, as well as medical devices</li>
+            <li>cameras, video recorders, or any type of recording device</li>
+            <li>creams, lotions, or perfumes</li>
+            <li>strollers</li>
+          </ul>
+
+          <h2>What (not) to bring</h2>
+          <p><i>The following items are <strong>strictly prohibited</strong>: <a target="_blank" href="http://visit.un.org/content/security">(From the UN Security Website)</a></i></p>
+          <ul>
+            <li>any liquid, including water</li>
+            <li>cans and bottles</li>
+            <li>food or beverages</li>
+            <li>backpacks and bags larger than 14\" wide x 13\" high x 4" deep</li>
+            <li>aerosol containers</li>
+            <li>non-aerosol spray (prescriptions for medical needs are permitted)</li>
+            <li>any pointed object other then pens and pencils (i.e., knives, knitting needles, letter openers, etc.)</li>
+            <li>electric stun guns, martial arts weapons or devices</li>
+            <li>guns, replica guns, ammunition, and fireworks</li>
+            <li>knives of any size</li>
+            <li>mace and pepper spray</li>
+            <li>razors and box cutters</li>
+          </ul>
+        </Panel>
+        <Panel header="Staying in NYC for Meteor Camp NYC 2016" eventKey="3">
           <p>Accommodations are numerous in NYC, with prices varying greatly. Discounts are available at many nearby options.</p>
 
           <p>We've worked to coordinate the discounted rates at nearby lodging that are outlined below.</p>
@@ -48,7 +82,7 @@ class Logistics extends React.Component {
 
           <p>Excellent affordable options are also often available on Airbnb and Booking.com.</p>
         </Panel>
-        <Panel header="Staying Nourished at Meteor Camp NYC" eventKey="3">
+        <Panel header="Staying Nourished at Meteor Camp NYC" eventKey="4">
           Food and light snacks will be served to all on-site attendees at Meteor Camp NYC. This will generally include fruit and pastries in the morning and during session breaks, and a light lunch or dinner of sandwiches or salad along with snacks (fruit, cookies, chips, etc.). Beverages are available at all times, including water and coffee/tea, as well as juice and sodas during lunch/dinner/breaks. If we have contribution sprints, food will also be available for participants of these activities.
         </Panel>
       </PanelGroup>
