@@ -2,6 +2,8 @@ import React from 'react';
 import TransitionGroup from 'react-addons-transition-group';
 import _ from 'lodash';
 
+const twitterFeedInterval = 15000;
+
 class Mentions extends React.Component {
   constructor(props) {
     super(props);
@@ -44,7 +46,7 @@ class Mentions extends React.Component {
 
     setInterval(() => this.setState({
       visibleTweets: this.getNewBatchOfTweets(this.state.allTweets),
-    }), 8000);
+    }), twitterFeedInterval);
   }
 
   getNewBatchOfTweets(allTweets) {
