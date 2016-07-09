@@ -234,3 +234,21 @@ a:after {
 	padding-top: 20px;
 	color: #333;
 }
+
+.tweet-enter {
+  opacity: 0.01;
+}
+
+.tweet-enter.tweet-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.tweet-leave {
+  opacity: 1;
+}
+
+.tweet-leave.tweet-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
